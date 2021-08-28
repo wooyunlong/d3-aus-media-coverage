@@ -1,0 +1,6673 @@
+{
+  "2007-06-21": {
+    "unemploy": 2,
+    "education": 59,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2018-10-23": {
+    "unemploy": 13,
+    "education": 42,
+    "crime": 24,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2006-12-07": {
+    "unemploy": 10,
+    "education": 28,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2021-06-22": {
+    "unemploy": 7,
+    "education": 24,
+    "crime": 14,
+    "homeless": 12,
+    "poverty": 8
+  },
+  "2020-10-26": {
+    "unemploy": 12,
+    "education": 19,
+    "crime": 7,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2009-05-27": {
+    "unemploy": 36,
+    "education": 271,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2018-05-31": {
+    "unemploy": 10,
+    "education": 54,
+    "crime": 6,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2018-12-03": {
+    "unemploy": 16,
+    "education": 139,
+    "crime": 28,
+    "homeless": 11,
+    "poverty": 6
+  },
+  "2014-12-04": {
+    "unemploy": 35,
+    "education": 93,
+    "crime": 6,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2009-08-20": {
+    "unemploy": 0,
+    "education": 21,
+    "crime": 45,
+    "homeless": 2,
+    "poverty": 9
+  },
+  "2006-06-14": {
+    "unemploy": 23,
+    "education": 33,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2017-06-13": {
+    "unemploy": 18,
+    "education": 44,
+    "crime": 12,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2011-09-21": {
+    "unemploy": 19,
+    "education": 33,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2017-06-01": {
+    "unemploy": 3,
+    "education": 93,
+    "crime": 3,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2006-06-22": {
+    "unemploy": 37,
+    "education": 116,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2017-06-22": {
+    "unemploy": 8,
+    "education": 58,
+    "crime": 2,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2008-09-17": {
+    "unemploy": 5,
+    "education": 100,
+    "crime": 0,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2014-10-22": {
+    "unemploy": 4,
+    "education": 30,
+    "crime": 19,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2010-10-19": {
+    "unemploy": 2,
+    "education": 86,
+    "crime": 21,
+    "homeless": 3,
+    "poverty": 15
+  },
+  "2014-06-03": {
+    "unemploy": 29,
+    "education": 154,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2006-05-25": {
+    "unemploy": 24,
+    "education": 47,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2009-03-10": {
+    "unemploy": 24,
+    "education": 36,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2013-06-03": {
+    "unemploy": 16,
+    "education": 545,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2020-09-03": {
+    "unemploy": 28,
+    "education": 20,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-05-11": {
+    "unemploy": 4,
+    "education": 16,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2016-08-30": {
+    "unemploy": 0,
+    "education": 2,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-11-26": {
+    "unemploy": 2,
+    "education": 46,
+    "crime": 18,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2011-10-31": {
+    "unemploy": 17,
+    "education": 376,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 19
+  },
+  "2020-08-25": {
+    "unemploy": 34,
+    "education": 16,
+    "crime": 5,
+    "homeless": 5,
+    "poverty": 5
+  },
+  "2016-02-29": {
+    "unemploy": 5,
+    "education": 60,
+    "crime": 11,
+    "homeless": 5,
+    "poverty": 5
+  },
+  "2010-03-18": {
+    "unemploy": 2,
+    "education": 31,
+    "crime": 45,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2021-02-15": {
+    "unemploy": 15,
+    "education": 52,
+    "crime": 28,
+    "homeless": 0,
+    "poverty": 8
+  },
+  "2011-07-06": {
+    "unemploy": 9,
+    "education": 180,
+    "crime": 29,
+    "homeless": 7,
+    "poverty": 22
+  },
+  "2014-03-26": {
+    "unemploy": 7,
+    "education": 50,
+    "crime": 8,
+    "homeless": 5,
+    "poverty": 1
+  },
+  "2011-09-22": {
+    "unemploy": 7,
+    "education": 57,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2015-11-11": {
+    "unemploy": 4,
+    "education": 39,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2014-10-30": {
+    "unemploy": 2,
+    "education": 39,
+    "crime": 17,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2007-05-21": {
+    "unemploy": 11,
+    "education": 86,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 43
+  },
+  "2013-06-06": {
+    "unemploy": 12,
+    "education": 59,
+    "crime": 3,
+    "homeless": 4,
+    "poverty": 5
+  },
+  "2006-03-30": {
+    "unemploy": 2,
+    "education": 20,
+    "crime": 9,
+    "homeless": 17,
+    "poverty": 2
+  },
+  "2014-10-28": {
+    "unemploy": 86,
+    "education": 191,
+    "crime": 4,
+    "homeless": 7,
+    "poverty": 11
+  },
+  "2008-11-24": {
+    "unemploy": 23,
+    "education": 288,
+    "crime": 12,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2010-06-17": {
+    "unemploy": 7,
+    "education": 61,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2015-03-05": {
+    "unemploy": 15,
+    "education": 69,
+    "crime": 8,
+    "homeless": 11,
+    "poverty": 1
+  },
+  "2014-11-27": {
+    "unemploy": 5,
+    "education": 47,
+    "crime": 12,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-02-10": {
+    "unemploy": 6,
+    "education": 49,
+    "crime": 56,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2015-11-12": {
+    "unemploy": 14,
+    "education": 22,
+    "crime": 10,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2010-10-27": {
+    "unemploy": 3,
+    "education": 90,
+    "crime": 8,
+    "homeless": 36,
+    "poverty": 11
+  },
+  "2007-03-28": {
+    "unemploy": 12,
+    "education": 71,
+    "crime": 14,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2009-05-25": {
+    "unemploy": 42,
+    "education": 74,
+    "crime": 8,
+    "homeless": 9,
+    "poverty": 5
+  },
+  "2021-06-02": {
+    "unemploy": 10,
+    "education": 15,
+    "crime": 4,
+    "homeless": 6,
+    "poverty": 8
+  },
+  "2009-08-13": {
+    "unemploy": 5,
+    "education": 123,
+    "crime": 17,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-03-25": {
+    "unemploy": 21,
+    "education": 33,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2014-03-24": {
+    "unemploy": 35,
+    "education": 35,
+    "crime": 9,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2019-02-18": {
+    "unemploy": 11,
+    "education": 96,
+    "crime": 38,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2015-06-23": {
+    "unemploy": 38,
+    "education": 118,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2006-10-16": {
+    "unemploy": 7,
+    "education": 44,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 64
+  },
+  "2018-06-19": {
+    "unemploy": 13,
+    "education": 141,
+    "crime": 1,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2011-02-24": {
+    "unemploy": 2,
+    "education": 26,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2010-02-02": {
+    "unemploy": 2,
+    "education": 74,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-10-14": {
+    "unemploy": 62,
+    "education": 39,
+    "crime": 15,
+    "homeless": 2,
+    "poverty": 11
+  },
+  "2018-09-10": {
+    "unemploy": 3,
+    "education": 75,
+    "crime": 10,
+    "homeless": 6,
+    "poverty": 2
+  },
+  "2013-06-04": {
+    "unemploy": 8,
+    "education": 91,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2007-06-20": {
+    "unemploy": 26,
+    "education": 25,
+    "crime": 13,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2010-09-28": {
+    "unemploy": 1,
+    "education": 18,
+    "crime": 0,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2016-09-15": {
+    "unemploy": 16,
+    "education": 130,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2007-02-26": {
+    "unemploy": 8,
+    "education": 241,
+    "crime": 6,
+    "homeless": 3,
+    "poverty": 9
+  },
+  "2019-09-12": {
+    "unemploy": 8,
+    "education": 13,
+    "crime": 25,
+    "homeless": 14,
+    "poverty": 6
+  },
+  "2011-08-16": {
+    "unemploy": 19,
+    "education": 44,
+    "crime": 0,
+    "homeless": 25,
+    "poverty": 1
+  },
+  "2010-11-15": {
+    "unemploy": 16,
+    "education": 178,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2009-06-04": {
+    "unemploy": 13,
+    "education": 65,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 11
+  },
+  "2020-08-26": {
+    "unemploy": 54,
+    "education": 60,
+    "crime": 3,
+    "homeless": 3,
+    "poverty": 5
+  },
+  "2018-05-21": {
+    "unemploy": 12,
+    "education": 86,
+    "crime": 9,
+    "homeless": 6,
+    "poverty": 8
+  },
+  "2020-02-13": {
+    "unemploy": 11,
+    "education": 114,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2016-10-13": {
+    "unemploy": 41,
+    "education": 117,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2006-08-15": {
+    "unemploy": 7,
+    "education": 9,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-05-29": {
+    "unemploy": 30,
+    "education": 81,
+    "crime": 1,
+    "homeless": 5,
+    "poverty": 4
+  },
+  "2012-08-22": {
+    "unemploy": 17,
+    "education": 45,
+    "crime": 8,
+    "homeless": 13,
+    "poverty": 5
+  },
+  "2013-12-10": {
+    "unemploy": 3,
+    "education": 62,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2011-06-01": {
+    "unemploy": 13,
+    "education": 67,
+    "crime": 21,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2012-08-14": {
+    "unemploy": 2,
+    "education": 13,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2014-05-26": {
+    "unemploy": 38,
+    "education": 227,
+    "crime": 7,
+    "homeless": 3,
+    "poverty": 21
+  },
+  "2016-10-10": {
+    "unemploy": 38,
+    "education": 139,
+    "crime": 14,
+    "homeless": 20,
+    "poverty": 117
+  },
+  "2014-11-24": {
+    "unemploy": 5,
+    "education": 169,
+    "crime": 102,
+    "homeless": 6,
+    "poverty": 3
+  },
+  "2013-03-13": {
+    "unemploy": 14,
+    "education": 261,
+    "crime": 18,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2019-02-19": {
+    "unemploy": 7,
+    "education": 126,
+    "crime": 14,
+    "homeless": 5,
+    "poverty": 3
+  },
+  "2020-12-09": {
+    "unemploy": 12,
+    "education": 41,
+    "crime": 10,
+    "homeless": 6,
+    "poverty": 0
+  },
+  "2013-06-27": {
+    "unemploy": 8,
+    "education": 19,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-07-17": {
+    "unemploy": 108,
+    "education": 83,
+    "crime": 20,
+    "homeless": 13,
+    "poverty": 12
+  },
+  "2019-09-18": {
+    "unemploy": 10,
+    "education": 151,
+    "crime": 41,
+    "homeless": 0,
+    "poverty": 14
+  },
+  "2008-03-12": {
+    "unemploy": 14,
+    "education": 30,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 8
+  },
+  "2006-10-11": {
+    "unemploy": 9,
+    "education": 77,
+    "crime": 12,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2011-11-21": {
+    "unemploy": 13,
+    "education": 65,
+    "crime": 96,
+    "homeless": 4,
+    "poverty": 7
+  },
+  "2021-03-22": {
+    "unemploy": 41,
+    "education": 37,
+    "crime": 16,
+    "homeless": 6,
+    "poverty": 6
+  },
+  "2006-05-30": {
+    "unemploy": 13,
+    "education": 36,
+    "crime": 10,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2018-10-24": {
+    "unemploy": 8,
+    "education": 41,
+    "crime": 40,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2009-11-16": {
+    "unemploy": 46,
+    "education": 56,
+    "crime": 58,
+    "homeless": 61,
+    "poverty": 3
+  },
+  "2018-08-21": {
+    "unemploy": 23,
+    "education": 26,
+    "crime": 114,
+    "homeless": 3,
+    "poverty": 3
+  },
+  "2020-10-19": {
+    "unemploy": 82,
+    "education": 64,
+    "crime": 0,
+    "homeless": 5,
+    "poverty": 3
+  },
+  "2016-02-02": {
+    "unemploy": 3,
+    "education": 101,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-05-31": {
+    "unemploy": 26,
+    "education": 54,
+    "crime": 9,
+    "homeless": 1,
+    "poverty": 21
+  },
+  "2006-05-22": {
+    "unemploy": 10,
+    "education": 63,
+    "crime": 13,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2009-02-25": {
+    "unemploy": 5,
+    "education": 54,
+    "crime": 0,
+    "homeless": 10,
+    "poverty": 0
+  },
+  "2019-04-02": {
+    "unemploy": 7,
+    "education": 25,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 7
+  },
+  "2006-03-27": {
+    "unemploy": 2,
+    "education": 1,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 9
+  },
+  "2017-06-20": {
+    "unemploy": 6,
+    "education": 72,
+    "crime": 8,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2008-10-14": {
+    "unemploy": 2,
+    "education": 7,
+    "crime": 1,
+    "homeless": 10,
+    "poverty": 0
+  },
+  "2017-02-13": {
+    "unemploy": 9,
+    "education": 131,
+    "crime": 67,
+    "homeless": 18,
+    "poverty": 0
+  },
+  "2012-10-31": {
+    "unemploy": 1,
+    "education": 23,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2016-10-17": {
+    "unemploy": 17,
+    "education": 139,
+    "crime": 16,
+    "homeless": 37,
+    "poverty": 14
+  },
+  "2017-08-10": {
+    "unemploy": 1,
+    "education": 42,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2014-07-15": {
+    "unemploy": 3,
+    "education": 22,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2020-11-12": {
+    "unemploy": 25,
+    "education": 117,
+    "crime": 6,
+    "homeless": 4,
+    "poverty": 10
+  },
+  "2006-02-16": {
+    "unemploy": 5,
+    "education": 17,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2006-12-04": {
+    "unemploy": 45,
+    "education": 18,
+    "crime": 16,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2021-03-17": {
+    "unemploy": 66,
+    "education": 53,
+    "crime": 13,
+    "homeless": 2,
+    "poverty": 77
+  },
+  "2008-06-04": {
+    "unemploy": 3,
+    "education": 85,
+    "crime": 13,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2018-06-26": {
+    "unemploy": 4,
+    "education": 50,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2020-05-14": {
+    "unemploy": 44,
+    "education": 22,
+    "crime": 3,
+    "homeless": 11,
+    "poverty": 3
+  },
+  "2011-05-26": {
+    "unemploy": 26,
+    "education": 74,
+    "crime": 16,
+    "homeless": 5,
+    "poverty": 2
+  },
+  "2009-11-18": {
+    "unemploy": 105,
+    "education": 221,
+    "crime": 75,
+    "homeless": 5,
+    "poverty": 4
+  },
+  "2012-05-08": {
+    "unemploy": 6,
+    "education": 10,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2018-03-01": {
+    "unemploy": 10,
+    "education": 29,
+    "crime": 0,
+    "homeless": 321,
+    "poverty": 3
+  },
+  "2019-07-25": {
+    "unemploy": 3,
+    "education": 14,
+    "crime": 6,
+    "homeless": 16,
+    "poverty": 5
+  },
+  "2013-03-20": {
+    "unemploy": 11,
+    "education": 55,
+    "crime": 19,
+    "homeless": 0,
+    "poverty": 9
+  },
+  "2016-10-19": {
+    "unemploy": 15,
+    "education": 143,
+    "crime": 20,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2021-02-18": {
+    "unemploy": 14,
+    "education": 83,
+    "crime": 12,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2012-11-28": {
+    "unemploy": 6,
+    "education": 121,
+    "crime": 30,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2011-05-24": {
+    "unemploy": 29,
+    "education": 128,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2011-05-31": {
+    "unemploy": 67,
+    "education": 80,
+    "crime": 9,
+    "homeless": 9,
+    "poverty": 8
+  },
+  "2007-08-08": {
+    "unemploy": 14,
+    "education": 36,
+    "crime": 19,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2007-02-28": {
+    "unemploy": 11,
+    "education": 157,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2015-08-17": {
+    "unemploy": 30,
+    "education": 48,
+    "crime": 14,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2008-10-22": {
+    "unemploy": 8,
+    "education": 80,
+    "crime": 0,
+    "homeless": 68,
+    "poverty": 6
+  },
+  "2017-05-22": {
+    "unemploy": 23,
+    "education": 106,
+    "crime": 4,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2008-09-02": {
+    "unemploy": 13,
+    "education": 21,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-09-30": {
+    "unemploy": 39,
+    "education": 39,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2012-05-09": {
+    "unemploy": 17,
+    "education": 294,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2019-08-01": {
+    "unemploy": 17,
+    "education": 72,
+    "crime": 7,
+    "homeless": 10,
+    "poverty": 2
+  },
+  "2007-03-20": {
+    "unemploy": 4,
+    "education": 20,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2019-10-14": {
+    "unemploy": 28,
+    "education": 143,
+    "crime": 6,
+    "homeless": 9,
+    "poverty": 13
+  },
+  "2020-06-12": {
+    "unemploy": 11,
+    "education": 92,
+    "crime": 2,
+    "homeless": 5,
+    "poverty": 4
+  },
+  "2014-07-16": {
+    "unemploy": 18,
+    "education": 37,
+    "crime": 5,
+    "homeless": 9,
+    "poverty": 7
+  },
+  "2011-09-19": {
+    "unemploy": 11,
+    "education": 49,
+    "crime": 11,
+    "homeless": 2,
+    "poverty": 15
+  },
+  "2010-03-11": {
+    "unemploy": 15,
+    "education": 19,
+    "crime": 7,
+    "homeless": 144,
+    "poverty": 1
+  },
+  "2009-05-14": {
+    "unemploy": 18,
+    "education": 37,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2006-09-11": {
+    "unemploy": 14,
+    "education": 13,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2016-03-16": {
+    "unemploy": 3,
+    "education": 16,
+    "crime": 123,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2020-08-27": {
+    "unemploy": 6,
+    "education": 17,
+    "crime": 9,
+    "homeless": 4,
+    "poverty": 8
+  },
+  "2014-11-25": {
+    "unemploy": 17,
+    "education": 75,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2008-03-11": {
+    "unemploy": 14,
+    "education": 79,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2018-02-28": {
+    "unemploy": 16,
+    "education": 67,
+    "crime": 36,
+    "homeless": 33,
+    "poverty": 3
+  },
+  "2019-12-02": {
+    "unemploy": 17,
+    "education": 38,
+    "crime": 10,
+    "homeless": 4,
+    "poverty": 36
+  },
+  "2018-05-10": {
+    "unemploy": 3,
+    "education": 80,
+    "crime": 18,
+    "homeless": 4,
+    "poverty": 4
+  },
+  "2017-03-01": {
+    "unemploy": 14,
+    "education": 39,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2006-09-12": {
+    "unemploy": 6,
+    "education": 12,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-05-26": {
+    "unemploy": 52,
+    "education": 70,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 8
+  },
+  "2018-10-17": {
+    "unemploy": 5,
+    "education": 121,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2017-02-16": {
+    "unemploy": 18,
+    "education": 14,
+    "crime": 12,
+    "homeless": 5,
+    "poverty": 8
+  },
+  "2008-12-01": {
+    "unemploy": 74,
+    "education": 148,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2008-10-21": {
+    "unemploy": 29,
+    "education": 127,
+    "crime": 2,
+    "homeless": 26,
+    "poverty": 34
+  },
+  "2017-03-27": {
+    "unemploy": 21,
+    "education": 37,
+    "crime": 48,
+    "homeless": 4,
+    "poverty": 6
+  },
+  "2009-02-24": {
+    "unemploy": 35,
+    "education": 45,
+    "crime": 0,
+    "homeless": 4,
+    "poverty": 0
+  },
+  "2012-05-28": {
+    "unemploy": 42,
+    "education": 78,
+    "crime": 9,
+    "homeless": 2,
+    "poverty": 7
+  },
+  "2013-05-14": {
+    "unemploy": 2,
+    "education": 33,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2007-03-29": {
+    "unemploy": 3,
+    "education": 166,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2021-05-11": {
+    "unemploy": 5,
+    "education": 15,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2020-10-06": {
+    "unemploy": 13,
+    "education": 9,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2010-11-22": {
+    "unemploy": 8,
+    "education": 82,
+    "crime": 28,
+    "homeless": 4,
+    "poverty": 18
+  },
+  "2009-02-11": {
+    "unemploy": 1,
+    "education": 31,
+    "crime": 38,
+    "homeless": 6,
+    "poverty": 1
+  },
+  "2008-11-27": {
+    "unemploy": 17,
+    "education": 81,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2016-03-02": {
+    "unemploy": 8,
+    "education": 22,
+    "crime": 11,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2011-09-20": {
+    "unemploy": 4,
+    "education": 12,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2010-10-25": {
+    "unemploy": 4,
+    "education": 82,
+    "crime": 11,
+    "homeless": 9,
+    "poverty": 8
+  },
+  "2008-12-03": {
+    "unemploy": 19,
+    "education": 75,
+    "crime": 29,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2015-06-24": {
+    "unemploy": 162,
+    "education": 100,
+    "crime": 24,
+    "homeless": 14,
+    "poverty": 20
+  },
+  "2021-05-25": {
+    "unemploy": 13,
+    "education": 319,
+    "crime": 1,
+    "homeless": 14,
+    "poverty": 2
+  },
+  "2009-03-16": {
+    "unemploy": 13,
+    "education": 61,
+    "crime": 1,
+    "homeless": 5,
+    "poverty": 0
+  },
+  "2009-03-17": {
+    "unemploy": 89,
+    "education": 39,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2010-05-24": {
+    "unemploy": 18,
+    "education": 71,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2017-10-16": {
+    "unemploy": 19,
+    "education": 33,
+    "crime": 10,
+    "homeless": 4,
+    "poverty": 5
+  },
+  "2018-12-06": {
+    "unemploy": 10,
+    "education": 53,
+    "crime": 9,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2015-05-28": {
+    "unemploy": 32,
+    "education": 58,
+    "crime": 119,
+    "homeless": 4,
+    "poverty": 6
+  },
+  "2009-05-12": {
+    "unemploy": 35,
+    "education": 24,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2010-03-17": {
+    "unemploy": 1,
+    "education": 69,
+    "crime": 15,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2008-09-24": {
+    "unemploy": 13,
+    "education": 85,
+    "crime": 5,
+    "homeless": 8,
+    "poverty": 0
+  },
+  "2020-02-04": {
+    "unemploy": 0,
+    "education": 29,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-10-01": {
+    "unemploy": 26,
+    "education": 23,
+    "crime": 14,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2012-02-13": {
+    "unemploy": 11,
+    "education": 72,
+    "crime": 9,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2017-02-08": {
+    "unemploy": 22,
+    "education": 51,
+    "crime": 16,
+    "homeless": 4,
+    "poverty": 2
+  },
+  "2014-09-25": {
+    "unemploy": 20,
+    "education": 71,
+    "crime": 249,
+    "homeless": 5,
+    "poverty": 0
+  },
+  "2013-06-26": {
+    "unemploy": 3,
+    "education": 40,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2018-02-27": {
+    "unemploy": 12,
+    "education": 33,
+    "crime": 6,
+    "homeless": 4,
+    "poverty": 4
+  },
+  "2017-10-19": {
+    "unemploy": 47,
+    "education": 213,
+    "crime": 46,
+    "homeless": 2,
+    "poverty": 14
+  },
+  "2008-03-19": {
+    "unemploy": 7,
+    "education": 19,
+    "crime": 6,
+    "homeless": 21,
+    "poverty": 0
+  },
+  "2014-02-27": {
+    "unemploy": 42,
+    "education": 92,
+    "crime": 17,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2011-11-17": {
+    "unemploy": 0,
+    "education": 1,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-06-04": {
+    "unemploy": 27,
+    "education": 149,
+    "crime": 16,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2013-05-29": {
+    "unemploy": 18,
+    "education": 101,
+    "crime": 26,
+    "homeless": 8,
+    "poverty": 8
+  },
+  "2011-06-02": {
+    "unemploy": 2,
+    "education": 23,
+    "crime": 0,
+    "homeless": 6,
+    "poverty": 2
+  },
+  "2019-07-30": {
+    "unemploy": 14,
+    "education": 12,
+    "crime": 9,
+    "homeless": 27,
+    "poverty": 19
+  },
+  "2018-05-08": {
+    "unemploy": 3,
+    "education": 14,
+    "crime": 25,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2006-11-02": {
+    "unemploy": 9,
+    "education": 12,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2007-02-13": {
+    "unemploy": 11,
+    "education": 46,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2009-05-26": {
+    "unemploy": 29,
+    "education": 129,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2006-12-05": {
+    "unemploy": 15,
+    "education": 7,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2008-06-16": {
+    "unemploy": 1,
+    "education": 39,
+    "crime": 10,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2017-10-25": {
+    "unemploy": 4,
+    "education": 41,
+    "crime": 72,
+    "homeless": 26,
+    "poverty": 2
+  },
+  "2015-10-20": {
+    "unemploy": 3,
+    "education": 58,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-12-01": {
+    "unemploy": 15,
+    "education": 82,
+    "crime": 13,
+    "homeless": 4,
+    "poverty": 4
+  },
+  "2015-11-25": {
+    "unemploy": 8,
+    "education": 34,
+    "crime": 15,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2018-10-16": {
+    "unemploy": 5,
+    "education": 42,
+    "crime": 4,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2014-09-22": {
+    "unemploy": 70,
+    "education": 90,
+    "crime": 26,
+    "homeless": 4,
+    "poverty": 15
+  },
+  "2006-06-13": {
+    "unemploy": 36,
+    "education": 36,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2010-05-13": {
+    "unemploy": 22,
+    "education": 79,
+    "crime": 7,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2010-02-08": {
+    "unemploy": 12,
+    "education": 53,
+    "crime": 7,
+    "homeless": 34,
+    "poverty": 10
+  },
+  "2008-05-29": {
+    "unemploy": 6,
+    "education": 60,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2012-02-07": {
+    "unemploy": 11,
+    "education": 34,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-09-17": {
+    "unemploy": 4,
+    "education": 125,
+    "crime": 12,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-02-12": {
+    "unemploy": 4,
+    "education": 120,
+    "crime": 39,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2020-08-31": {
+    "unemploy": 8,
+    "education": 29,
+    "crime": 24,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2018-11-29": {
+    "unemploy": 10,
+    "education": 25,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2015-03-03": {
+    "unemploy": 40,
+    "education": 43,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2006-10-31": {
+    "unemploy": 3,
+    "education": 16,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2006-11-01": {
+    "unemploy": 2,
+    "education": 51,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2020-12-01": {
+    "unemploy": 101,
+    "education": 15,
+    "crime": 2,
+    "homeless": 33,
+    "poverty": 42
+  },
+  "2017-06-19": {
+    "unemploy": 5,
+    "education": 228,
+    "crime": 87,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2013-11-13": {
+    "unemploy": 9,
+    "education": 43,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2011-11-23": {
+    "unemploy": 49,
+    "education": 114,
+    "crime": 50,
+    "homeless": 1,
+    "poverty": 20
+  },
+  "2011-11-01": {
+    "unemploy": 3,
+    "education": 34,
+    "crime": 16,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2017-09-07": {
+    "unemploy": 45,
+    "education": 41,
+    "crime": 30,
+    "homeless": 20,
+    "poverty": 22
+  },
+  "2014-05-14": {
+    "unemploy": 52,
+    "education": 60,
+    "crime": 11,
+    "homeless": 5,
+    "poverty": 5
+  },
+  "2015-11-23": {
+    "unemploy": 16,
+    "education": 103,
+    "crime": 32,
+    "homeless": 7,
+    "poverty": 3
+  },
+  "2016-03-03": {
+    "unemploy": 6,
+    "education": 107,
+    "crime": 13,
+    "homeless": 3,
+    "poverty": 3
+  },
+  "2008-09-16": {
+    "unemploy": 1,
+    "education": 38,
+    "crime": 1,
+    "homeless": 14,
+    "poverty": 0
+  },
+  "2007-03-26": {
+    "unemploy": 14,
+    "education": 33,
+    "crime": 28,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2007-08-15": {
+    "unemploy": 17,
+    "education": 255,
+    "crime": 8,
+    "homeless": 8,
+    "poverty": 2
+  },
+  "2009-03-12": {
+    "unemploy": 54,
+    "education": 142,
+    "crime": 4,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2008-05-27": {
+    "unemploy": 3,
+    "education": 91,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2017-09-13": {
+    "unemploy": 10,
+    "education": 365,
+    "crime": 21,
+    "homeless": 2,
+    "poverty": 8
+  },
+  "2018-09-20": {
+    "unemploy": 1,
+    "education": 116,
+    "crime": 14,
+    "homeless": 3,
+    "poverty": 3
+  },
+  "2017-02-27": {
+    "unemploy": 25,
+    "education": 239,
+    "crime": 14,
+    "homeless": 16,
+    "poverty": 55
+  },
+  "2015-08-10": {
+    "unemploy": 3,
+    "education": 15,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2013-11-20": {
+    "unemploy": 6,
+    "education": 47,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 11
+  },
+  "2012-05-10": {
+    "unemploy": 28,
+    "education": 112,
+    "crime": 45,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2016-11-08": {
+    "unemploy": 135,
+    "education": 208,
+    "crime": 20,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2019-11-25": {
+    "unemploy": 6,
+    "education": 140,
+    "crime": 24,
+    "homeless": 100,
+    "poverty": 3
+  },
+  "2006-11-29": {
+    "unemploy": 2,
+    "education": 32,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2008-05-26": {
+    "unemploy": 13,
+    "education": 93,
+    "crime": 11,
+    "homeless": 70,
+    "poverty": 38
+  },
+  "2008-11-11": {
+    "unemploy": 8,
+    "education": 182,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2016-11-10": {
+    "unemploy": 24,
+    "education": 42,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2010-11-16": {
+    "unemploy": 20,
+    "education": 68,
+    "crime": 9,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2008-11-25": {
+    "unemploy": 9,
+    "education": 74,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2017-03-02": {
+    "unemploy": 7,
+    "education": 52,
+    "crime": 9,
+    "homeless": 5,
+    "poverty": 2
+  },
+  "2021-02-22": {
+    "unemploy": 15,
+    "education": 42,
+    "crime": 16,
+    "homeless": 7,
+    "poverty": 8
+  },
+  "2010-06-24": {
+    "unemploy": 9,
+    "education": 42,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2017-02-09": {
+    "unemploy": 1,
+    "education": 72,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2021-03-23": {
+    "unemploy": 36,
+    "education": 46,
+    "crime": 5,
+    "homeless": 4,
+    "poverty": 2
+  },
+  "2011-06-22": {
+    "unemploy": 11,
+    "education": 436,
+    "crime": 101,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2018-12-05": {
+    "unemploy": 5,
+    "education": 34,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-09-30": {
+    "unemploy": 5,
+    "education": 46,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2006-05-10": {
+    "unemploy": 10,
+    "education": 49,
+    "crime": 4,
+    "homeless": 8,
+    "poverty": 1
+  },
+  "2006-06-20": {
+    "unemploy": 31,
+    "education": 16,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2008-09-22": {
+    "unemploy": 6,
+    "education": 17,
+    "crime": 21,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2009-02-05": {
+    "unemploy": 8,
+    "education": 19,
+    "crime": 40,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2014-07-08": {
+    "unemploy": 0,
+    "education": 1,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2010-06-21": {
+    "unemploy": 7,
+    "education": 45,
+    "crime": 22,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2008-02-14": {
+    "unemploy": 9,
+    "education": 99,
+    "crime": 16,
+    "homeless": 10,
+    "poverty": 8
+  },
+  "2020-08-24": {
+    "unemploy": 13,
+    "education": 153,
+    "crime": 1,
+    "homeless": 68,
+    "poverty": 12
+  },
+  "2013-05-27": {
+    "unemploy": 19,
+    "education": 143,
+    "crime": 9,
+    "homeless": 18,
+    "poverty": 1
+  },
+  "2016-03-17": {
+    "unemploy": 27,
+    "education": 36,
+    "crime": 9,
+    "homeless": 4,
+    "poverty": 8
+  },
+  "2012-11-27": {
+    "unemploy": 1,
+    "education": 29,
+    "crime": 12,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2016-02-11": {
+    "unemploy": 8,
+    "education": 65,
+    "crime": 22,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2012-03-19": {
+    "unemploy": 7,
+    "education": 45,
+    "crime": 37,
+    "homeless": 0,
+    "poverty": 14
+  },
+  "2011-11-02": {
+    "unemploy": 1,
+    "education": 306,
+    "crime": 5,
+    "homeless": 3,
+    "poverty": 5
+  },
+  "2012-09-11": {
+    "unemploy": 12,
+    "education": 83,
+    "crime": 0,
+    "homeless": 13,
+    "poverty": 0
+  },
+  "2009-09-15": {
+    "unemploy": 4,
+    "education": 35,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 37
+  },
+  "2012-06-27": {
+    "unemploy": 21,
+    "education": 110,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2016-02-04": {
+    "unemploy": 8,
+    "education": 85,
+    "crime": 15,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2012-09-18": {
+    "unemploy": 4,
+    "education": 91,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2009-09-08": {
+    "unemploy": 16,
+    "education": 13,
+    "crime": 1,
+    "homeless": 4,
+    "poverty": 0
+  },
+  "2013-12-03": {
+    "unemploy": 3,
+    "education": 220,
+    "crime": 6,
+    "homeless": 7,
+    "poverty": 12
+  },
+  "2010-11-25": {
+    "unemploy": 17,
+    "education": 71,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2006-02-07": {
+    "unemploy": 5,
+    "education": 47,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2013-02-07": {
+    "unemploy": 6,
+    "education": 52,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2011-10-11": {
+    "unemploy": 13,
+    "education": 14,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2008-06-05": {
+    "unemploy": 10,
+    "education": 32,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2014-06-18": {
+    "unemploy": 58,
+    "education": 234,
+    "crime": 3,
+    "homeless": 7,
+    "poverty": 4
+  },
+  "2006-08-08": {
+    "unemploy": 32,
+    "education": 65,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2011-08-17": {
+    "unemploy": 6,
+    "education": 21,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-05-26": {
+    "unemploy": 23,
+    "education": 44,
+    "crime": 12,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2006-08-10": {
+    "unemploy": 11,
+    "education": 39,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2019-12-04": {
+    "unemploy": 1,
+    "education": 61,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2015-05-13": {
+    "unemploy": 35,
+    "education": 30,
+    "crime": 12,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2006-08-16": {
+    "unemploy": 12,
+    "education": 178,
+    "crime": 6,
+    "homeless": 11,
+    "poverty": 6
+  },
+  "2017-05-11": {
+    "unemploy": 19,
+    "education": 112,
+    "crime": 33,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2015-06-17": {
+    "unemploy": 12,
+    "education": 153,
+    "crime": 5,
+    "homeless": 7,
+    "poverty": 12
+  },
+  "2017-06-14": {
+    "unemploy": 18,
+    "education": 112,
+    "crime": 12,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2020-03-23": {
+    "unemploy": 11,
+    "education": 10,
+    "crime": 1,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2019-04-04": {
+    "unemploy": 8,
+    "education": 61,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2017-03-29": {
+    "unemploy": 52,
+    "education": 56,
+    "crime": 5,
+    "homeless": 7,
+    "poverty": 19
+  },
+  "2017-08-14": {
+    "unemploy": 10,
+    "education": 30,
+    "crime": 7,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2008-10-20": {
+    "unemploy": 14,
+    "education": 414,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 21
+  },
+  "2021-06-03": {
+    "unemploy": 5,
+    "education": 14,
+    "crime": 5,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2016-04-18": {
+    "unemploy": 3,
+    "education": 14,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2008-06-19": {
+    "unemploy": 8,
+    "education": 28,
+    "crime": 19,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2010-02-24": {
+    "unemploy": 16,
+    "education": 103,
+    "crime": 43,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2011-03-23": {
+    "unemploy": 8,
+    "education": 26,
+    "crime": 47,
+    "homeless": 5,
+    "poverty": 0
+  },
+  "2019-04-03": {
+    "unemploy": 21,
+    "education": 39,
+    "crime": 13,
+    "homeless": 3,
+    "poverty": 6
+  },
+  "2021-05-24": {
+    "unemploy": 37,
+    "education": 72,
+    "crime": 4,
+    "homeless": 51,
+    "poverty": 7
+  },
+  "2011-09-15": {
+    "unemploy": 11,
+    "education": 29,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2016-02-25": {
+    "unemploy": 9,
+    "education": 142,
+    "crime": 8,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2017-05-23": {
+    "unemploy": 6,
+    "education": 61,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2017-09-11": {
+    "unemploy": 30,
+    "education": 59,
+    "crime": 12,
+    "homeless": 13,
+    "poverty": 2
+  },
+  "2006-06-01": {
+    "unemploy": 25,
+    "education": 35,
+    "crime": 0,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2012-08-15": {
+    "unemploy": 6,
+    "education": 35,
+    "crime": 7,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2013-11-21": {
+    "unemploy": 5,
+    "education": 47,
+    "crime": 16,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2019-02-13": {
+    "unemploy": 19,
+    "education": 134,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2018-06-21": {
+    "unemploy": 13,
+    "education": 34,
+    "crime": 4,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2017-05-09": {
+    "unemploy": 1,
+    "education": 79,
+    "crime": 12,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2009-02-12": {
+    "unemploy": 32,
+    "education": 45,
+    "crime": 35,
+    "homeless": 5,
+    "poverty": 6
+  },
+  "2017-03-30": {
+    "unemploy": 9,
+    "education": 21,
+    "crime": 62,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2018-06-20": {
+    "unemploy": 23,
+    "education": 44,
+    "crime": 10,
+    "homeless": 10,
+    "poverty": 3
+  },
+  "2012-02-15": {
+    "unemploy": 14,
+    "education": 72,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2016-10-20": {
+    "unemploy": 6,
+    "education": 32,
+    "crime": 7,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2011-02-09": {
+    "unemploy": 4,
+    "education": 35,
+    "crime": 141,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2017-05-24": {
+    "unemploy": 28,
+    "education": 484,
+    "crime": 3,
+    "homeless": 9,
+    "poverty": 3
+  },
+  "2008-09-04": {
+    "unemploy": 6,
+    "education": 104,
+    "crime": 7,
+    "homeless": 17,
+    "poverty": 4
+  },
+  "2015-06-18": {
+    "unemploy": 15,
+    "education": 30,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 17
+  },
+  "2007-09-13": {
+    "unemploy": 17,
+    "education": 59,
+    "crime": 10,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2018-11-26": {
+    "unemploy": 7,
+    "education": 38,
+    "crime": 5,
+    "homeless": 9,
+    "poverty": 2
+  },
+  "2008-02-20": {
+    "unemploy": 26,
+    "education": 101,
+    "crime": 6,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2020-03-05": {
+    "unemploy": 4,
+    "education": 22,
+    "crime": 14,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2008-03-17": {
+    "unemploy": 31,
+    "education": 50,
+    "crime": 9,
+    "homeless": 6,
+    "poverty": 3
+  },
+  "2018-08-15": {
+    "unemploy": 3,
+    "education": 82,
+    "crime": 12,
+    "homeless": 11,
+    "poverty": 4
+  },
+  "2008-10-15": {
+    "unemploy": 16,
+    "education": 26,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2007-05-29": {
+    "unemploy": 28,
+    "education": 313,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2020-02-25": {
+    "unemploy": 13,
+    "education": 51,
+    "crime": 12,
+    "homeless": 5,
+    "poverty": 9
+  },
+  "2020-02-11": {
+    "unemploy": 5,
+    "education": 16,
+    "crime": 1,
+    "homeless": 4,
+    "poverty": 5
+  },
+  "2012-06-19": {
+    "unemploy": 3,
+    "education": 67,
+    "crime": 15,
+    "homeless": 8,
+    "poverty": 1
+  },
+  "2010-03-09": {
+    "unemploy": 1,
+    "education": 12,
+    "crime": 36,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2018-05-23": {
+    "unemploy": 27,
+    "education": 104,
+    "crime": 5,
+    "homeless": 8,
+    "poverty": 11
+  },
+  "2007-05-28": {
+    "unemploy": 23,
+    "education": 140,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2015-12-03": {
+    "unemploy": 10,
+    "education": 34,
+    "crime": 35,
+    "homeless": 8,
+    "poverty": 1
+  },
+  "2020-06-10": {
+    "unemploy": 55,
+    "education": 251,
+    "crime": 5,
+    "homeless": 10,
+    "poverty": 4
+  },
+  "2006-09-14": {
+    "unemploy": 26,
+    "education": 200,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2009-02-09": {
+    "unemploy": 0,
+    "education": 0,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2011-08-22": {
+    "unemploy": 22,
+    "education": 307,
+    "crime": 18,
+    "homeless": 0,
+    "poverty": 11
+  },
+  "2018-12-04": {
+    "unemploy": 4,
+    "education": 219,
+    "crime": 5,
+    "homeless": 5,
+    "poverty": 6
+  },
+  "2014-09-24": {
+    "unemploy": 7,
+    "education": 36,
+    "crime": 263,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-08-18": {
+    "unemploy": 8,
+    "education": 208,
+    "crime": 11,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2006-02-15": {
+    "unemploy": 20,
+    "education": 50,
+    "crime": 15,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2010-02-04": {
+    "unemploy": 12,
+    "education": 27,
+    "crime": 25,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2013-02-05": {
+    "unemploy": 6,
+    "education": 10,
+    "crime": 77,
+    "homeless": 1,
+    "poverty": 15
+  },
+  "2008-03-13": {
+    "unemploy": 40,
+    "education": 23,
+    "crime": 10,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2016-11-09": {
+    "unemploy": 13,
+    "education": 23,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2011-02-28": {
+    "unemploy": 19,
+    "education": 80,
+    "crime": 30,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2018-08-23": {
+    "unemploy": 4,
+    "education": 65,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2008-02-21": {
+    "unemploy": 9,
+    "education": 40,
+    "crime": 6,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2006-05-09": {
+    "unemploy": 10,
+    "education": 15,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2007-03-27": {
+    "unemploy": 9,
+    "education": 240,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2009-02-03": {
+    "unemploy": 31,
+    "education": 21,
+    "crime": 2,
+    "homeless": 13,
+    "poverty": 1
+  },
+  "2015-05-25": {
+    "unemploy": 53,
+    "education": 65,
+    "crime": 24,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2018-09-19": {
+    "unemploy": 8,
+    "education": 57,
+    "crime": 4,
+    "homeless": 5,
+    "poverty": 4
+  },
+  "2015-10-21": {
+    "unemploy": 11,
+    "education": 136,
+    "crime": 0,
+    "homeless": 6,
+    "poverty": 12
+  },
+  "2013-06-19": {
+    "unemploy": 14,
+    "education": 51,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2021-02-25": {
+    "unemploy": 7,
+    "education": 12,
+    "crime": 4,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2016-11-24": {
+    "unemploy": 3,
+    "education": 20,
+    "crime": 17,
+    "homeless": 36,
+    "poverty": 17
+  },
+  "2008-10-16": {
+    "unemploy": 7,
+    "education": 174,
+    "crime": 2,
+    "homeless": 16,
+    "poverty": 6
+  },
+  "2006-02-09": {
+    "unemploy": 23,
+    "education": 140,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 10
+  },
+  "2008-06-26": {
+    "unemploy": 4,
+    "education": 13,
+    "crime": 10,
+    "homeless": 8,
+    "poverty": 0
+  },
+  "2006-08-09": {
+    "unemploy": 7,
+    "education": 31,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2007-03-01": {
+    "unemploy": 16,
+    "education": 24,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2009-09-14": {
+    "unemploy": 10,
+    "education": 49,
+    "crime": 12,
+    "homeless": 1,
+    "poverty": 9
+  },
+  "2012-03-20": {
+    "unemploy": 2,
+    "education": 26,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2014-11-26": {
+    "unemploy": 2,
+    "education": 25,
+    "crime": 12,
+    "homeless": 4,
+    "poverty": 0
+  },
+  "2015-11-10": {
+    "unemploy": 15,
+    "education": 26,
+    "crime": 77,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2006-03-02": {
+    "unemploy": 8,
+    "education": 10,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2017-10-26": {
+    "unemploy": 2,
+    "education": 20,
+    "crime": 8,
+    "homeless": 5,
+    "poverty": 1
+  },
+  "2018-03-28": {
+    "unemploy": 11,
+    "education": 22,
+    "crime": 12,
+    "homeless": 5,
+    "poverty": 0
+  },
+  "2014-11-18": {
+    "unemploy": 1,
+    "education": 3,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2019-09-19": {
+    "unemploy": 4,
+    "education": 39,
+    "crime": 6,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2014-02-25": {
+    "unemploy": 22,
+    "education": 16,
+    "crime": 5,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2007-02-14": {
+    "unemploy": 16,
+    "education": 37,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2007-06-19": {
+    "unemploy": 3,
+    "education": 6,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2012-09-17": {
+    "unemploy": 8,
+    "education": 114,
+    "crime": 7,
+    "homeless": 2,
+    "poverty": 11
+  },
+  "2018-06-25": {
+    "unemploy": 7,
+    "education": 108,
+    "crime": 13,
+    "homeless": 6,
+    "poverty": 14
+  },
+  "2015-03-26": {
+    "unemploy": 23,
+    "education": 38,
+    "crime": 42,
+    "homeless": 4,
+    "poverty": 2
+  },
+  "2018-09-13": {
+    "unemploy": 9,
+    "education": 31,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 9
+  },
+  "2014-06-26": {
+    "unemploy": 14,
+    "education": 30,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 8
+  },
+  "2014-02-26": {
+    "unemploy": 35,
+    "education": 132,
+    "crime": 11,
+    "homeless": 1,
+    "poverty": 9
+  },
+  "2012-02-08": {
+    "unemploy": 10,
+    "education": 62,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2015-06-03": {
+    "unemploy": 59,
+    "education": 43,
+    "crime": 4,
+    "homeless": 12,
+    "poverty": 3
+  },
+  "2008-05-13": {
+    "unemploy": 5,
+    "education": 36,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-05-23": {
+    "unemploy": 63,
+    "education": 139,
+    "crime": 56,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2017-05-29": {
+    "unemploy": 26,
+    "education": 467,
+    "crime": 7,
+    "homeless": 3,
+    "poverty": 6
+  },
+  "2007-09-18": {
+    "unemploy": 8,
+    "education": 9,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-05-28": {
+    "unemploy": 45,
+    "education": 225,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2017-12-04": {
+    "unemploy": 1,
+    "education": 38,
+    "crime": 11,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2020-11-10": {
+    "unemploy": 12,
+    "education": 20,
+    "crime": 3,
+    "homeless": 12,
+    "poverty": 11
+  },
+  "2006-03-29": {
+    "unemploy": 3,
+    "education": 24,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2013-03-19": {
+    "unemploy": 6,
+    "education": 23,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2015-09-10": {
+    "unemploy": 23,
+    "education": 30,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2018-10-15": {
+    "unemploy": 7,
+    "education": 67,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2012-05-21": {
+    "unemploy": 35,
+    "education": 165,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2011-02-22": {
+    "unemploy": 17,
+    "education": 34,
+    "crime": 1,
+    "homeless": 5,
+    "poverty": 1
+  },
+  "2019-10-17": {
+    "unemploy": 38,
+    "education": 25,
+    "crime": 16,
+    "homeless": 58,
+    "poverty": 88
+  },
+  "2015-10-19": {
+    "unemploy": 6,
+    "education": 68,
+    "crime": 8,
+    "homeless": 2,
+    "poverty": 10
+  },
+  "2016-11-21": {
+    "unemploy": 38,
+    "education": 65,
+    "crime": 64,
+    "homeless": 7,
+    "poverty": 19
+  },
+  "2012-02-28": {
+    "unemploy": 19,
+    "education": 62,
+    "crime": 9,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2019-10-22": {
+    "unemploy": 25,
+    "education": 28,
+    "crime": 17,
+    "homeless": 2,
+    "poverty": 9
+  },
+  "2007-02-15": {
+    "unemploy": 38,
+    "education": 84,
+    "crime": 1,
+    "homeless": 21,
+    "poverty": 4
+  },
+  "2021-06-15": {
+    "unemploy": 1,
+    "education": 10,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 2
+  },
+  "2009-02-10": {
+    "unemploy": 0,
+    "education": 11,
+    "crime": 6,
+    "homeless": 6,
+    "poverty": 2
+  },
+  "2020-10-07": {
+    "unemploy": 59,
+    "education": 65,
+    "crime": 78,
+    "homeless": 22,
+    "poverty": 7
+  },
+  "2011-03-03": {
+    "unemploy": 7,
+    "education": 199,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2009-11-17": {
+    "unemploy": 6,
+    "education": 24,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2008-03-18": {
+    "unemploy": 6,
+    "education": 33,
+    "crime": 1,
+    "homeless": 17,
+    "poverty": 1
+  },
+  "2009-06-16": {
+    "unemploy": 3,
+    "education": 66,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2021-05-26": {
+    "unemploy": 25,
+    "education": 45,
+    "crime": 6,
+    "homeless": 41,
+    "poverty": 6
+  },
+  "2012-08-20": {
+    "unemploy": 8,
+    "education": 88,
+    "crime": 77,
+    "homeless": 31,
+    "poverty": 5
+  },
+  "2006-11-27": {
+    "unemploy": 33,
+    "education": 39,
+    "crime": 17,
+    "homeless": 1,
+    "poverty": 16
+  },
+  "2015-06-02": {
+    "unemploy": 25,
+    "education": 25,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2006-02-27": {
+    "unemploy": 10,
+    "education": 55,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 17
+  },
+  "2020-10-27": {
+    "unemploy": 14,
+    "education": 29,
+    "crime": 2,
+    "homeless": 4,
+    "poverty": 2
+  },
+  "2006-05-11": {
+    "unemploy": 47,
+    "education": 25,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2015-06-16": {
+    "unemploy": 38,
+    "education": 19,
+    "crime": 2,
+    "homeless": 6,
+    "poverty": 5
+  },
+  "2014-05-13": {
+    "unemploy": 30,
+    "education": 39,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2006-02-14": {
+    "unemploy": 14,
+    "education": 36,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-06-02": {
+    "unemploy": 34,
+    "education": 140,
+    "crime": 1,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2009-06-24": {
+    "unemploy": 4,
+    "education": 37,
+    "crime": 36,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2014-12-02": {
+    "unemploy": 9,
+    "education": 75,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-10-21": {
+    "unemploy": 14,
+    "education": 55,
+    "crime": 5,
+    "homeless": 8,
+    "poverty": 5
+  },
+  "2006-02-28": {
+    "unemploy": 3,
+    "education": 13,
+    "crime": 22,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2009-06-02": {
+    "unemploy": 47,
+    "education": 171,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2020-06-15": {
+    "unemploy": 22,
+    "education": 158,
+    "crime": 8,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2018-02-08": {
+    "unemploy": 18,
+    "education": 34,
+    "crime": 56,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-05-10": {
+    "unemploy": 11,
+    "education": 8,
+    "crime": 6,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2012-10-09": {
+    "unemploy": 4,
+    "education": 113,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2010-02-09": {
+    "unemploy": 1,
+    "education": 35,
+    "crime": 14,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-07-14": {
+    "unemploy": 5,
+    "education": 55,
+    "crime": 11,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-03-01": {
+    "unemploy": 5,
+    "education": 78,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 12
+  },
+  "2009-05-13": {
+    "unemploy": 25,
+    "education": 122,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2009-11-19": {
+    "unemploy": 8,
+    "education": 55,
+    "crime": 18,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2009-06-23": {
+    "unemploy": 5,
+    "education": 19,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2021-03-15": {
+    "unemploy": 11,
+    "education": 33,
+    "crime": 4,
+    "homeless": 7,
+    "poverty": 6
+  },
+  "2009-06-15": {
+    "unemploy": 47,
+    "education": 183,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2017-06-15": {
+    "unemploy": 5,
+    "education": 14,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2015-08-19": {
+    "unemploy": 33,
+    "education": 14,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 6
+  },
+  "2018-02-12": {
+    "unemploy": 17,
+    "education": 151,
+    "crime": 11,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2009-09-07": {
+    "unemploy": 13,
+    "education": 87,
+    "crime": 14,
+    "homeless": 0,
+    "poverty": 10
+  },
+  "2012-06-18": {
+    "unemploy": 21,
+    "education": 51,
+    "crime": 6,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2019-11-28": {
+    "unemploy": 8,
+    "education": 23,
+    "crime": 16,
+    "homeless": 10,
+    "poverty": 1
+  },
+  "2012-11-01": {
+    "unemploy": 11,
+    "education": 58,
+    "crime": 9,
+    "homeless": 15,
+    "poverty": 2
+  },
+  "2015-08-20": {
+    "unemploy": 52,
+    "education": 22,
+    "crime": 5,
+    "homeless": 9,
+    "poverty": 5
+  },
+  "2014-06-24": {
+    "unemploy": 29,
+    "education": 34,
+    "crime": 3,
+    "homeless": 6,
+    "poverty": 11
+  },
+  "2009-06-22": {
+    "unemploy": 1,
+    "education": 59,
+    "crime": 23,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2016-02-23": {
+    "unemploy": 3,
+    "education": 12,
+    "crime": 26,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2012-11-26": {
+    "unemploy": 6,
+    "education": 111,
+    "crime": 30,
+    "homeless": 4,
+    "poverty": 5
+  },
+  "2011-09-14": {
+    "unemploy": 10,
+    "education": 49,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2018-08-16": {
+    "unemploy": 21,
+    "education": 42,
+    "crime": 34,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2014-10-23": {
+    "unemploy": 15,
+    "education": 48,
+    "crime": 2,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2013-06-20": {
+    "unemploy": 12,
+    "education": 22,
+    "crime": 5,
+    "homeless": 14,
+    "poverty": 0
+  },
+  "2011-06-23": {
+    "unemploy": 10,
+    "education": 274,
+    "crime": 103,
+    "homeless": 7,
+    "poverty": 7
+  },
+  "2015-08-18": {
+    "unemploy": 7,
+    "education": 15,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2009-10-28": {
+    "unemploy": 2,
+    "education": 20,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2007-09-11": {
+    "unemploy": 4,
+    "education": 83,
+    "crime": 19,
+    "homeless": 0,
+    "poverty": 8
+  },
+  "2012-05-24": {
+    "unemploy": 14,
+    "education": 24,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2017-05-31": {
+    "unemploy": 21,
+    "education": 45,
+    "crime": 13,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2013-03-21": {
+    "unemploy": 0,
+    "education": 14,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2016-11-29": {
+    "unemploy": 57,
+    "education": 46,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2021-03-16": {
+    "unemploy": 63,
+    "education": 14,
+    "crime": 7,
+    "homeless": 1,
+    "poverty": 52
+  },
+  "2017-09-05": {
+    "unemploy": 5,
+    "education": 66,
+    "crime": 10,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2007-05-30": {
+    "unemploy": 71,
+    "education": 118,
+    "crime": 17,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2021-06-01": {
+    "unemploy": 6,
+    "education": 9,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 0
+  },
+  "2012-09-13": {
+    "unemploy": 4,
+    "education": 44,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2012-11-29": {
+    "unemploy": 8,
+    "education": 39,
+    "crime": 10,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2018-10-25": {
+    "unemploy": 9,
+    "education": 19,
+    "crime": 10,
+    "homeless": 136,
+    "poverty": 11
+  },
+  "2006-10-17": {
+    "unemploy": 3,
+    "education": 6,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2015-05-27": {
+    "unemploy": 57,
+    "education": 61,
+    "crime": 8,
+    "homeless": 13,
+    "poverty": 4
+  },
+  "2019-09-10": {
+    "unemploy": 11,
+    "education": 43,
+    "crime": 5,
+    "homeless": 7,
+    "poverty": 4
+  },
+  "2020-09-01": {
+    "unemploy": 29,
+    "education": 186,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2012-03-13": {
+    "unemploy": 6,
+    "education": 21,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2016-09-14": {
+    "unemploy": 12,
+    "education": 48,
+    "crime": 21,
+    "homeless": 5,
+    "poverty": 5
+  },
+  "2010-05-25": {
+    "unemploy": 10,
+    "education": 20,
+    "crime": 47,
+    "homeless": 9,
+    "poverty": 0
+  },
+  "2012-05-29": {
+    "unemploy": 29,
+    "education": 66,
+    "crime": 19,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2019-09-17": {
+    "unemploy": 12,
+    "education": 115,
+    "crime": 18,
+    "homeless": 36,
+    "poverty": 21
+  },
+  "2008-06-23": {
+    "unemploy": 4,
+    "education": 22,
+    "crime": 61,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2013-11-18": {
+    "unemploy": 12,
+    "education": 50,
+    "crime": 23,
+    "homeless": 16,
+    "poverty": 5
+  },
+  "2007-06-14": {
+    "unemploy": 11,
+    "education": 124,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2012-09-12": {
+    "unemploy": 14,
+    "education": 177,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2016-02-09": {
+    "unemploy": 11,
+    "education": 42,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2014-09-01": {
+    "unemploy": 4,
+    "education": 71,
+    "crime": 12,
+    "homeless": 1,
+    "poverty": 16
+  },
+  "2019-02-20": {
+    "unemploy": 7,
+    "education": 34,
+    "crime": 6,
+    "homeless": 3,
+    "poverty": 10
+  },
+  "2020-03-02": {
+    "unemploy": 24,
+    "education": 60,
+    "crime": 6,
+    "homeless": 3,
+    "poverty": 9
+  },
+  "2021-02-16": {
+    "unemploy": 9,
+    "education": 7,
+    "crime": 27,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2006-05-29": {
+    "unemploy": 11,
+    "education": 61,
+    "crime": 10,
+    "homeless": 6,
+    "poverty": 3
+  },
+  "2019-07-23": {
+    "unemploy": 4,
+    "education": 17,
+    "crime": 12,
+    "homeless": 14,
+    "poverty": 3
+  },
+  "2014-11-14": {
+    "unemploy": 1,
+    "education": 1,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2018-05-24": {
+    "unemploy": 18,
+    "education": 55,
+    "crime": 23,
+    "homeless": 11,
+    "poverty": 9
+  },
+  "2007-02-06": {
+    "unemploy": 11,
+    "education": 19,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2007-05-23": {
+    "unemploy": 27,
+    "education": 106,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 7
+  },
+  "2008-09-18": {
+    "unemploy": 10,
+    "education": 16,
+    "crime": 0,
+    "homeless": 4,
+    "poverty": 0
+  },
+  "2018-06-28": {
+    "unemploy": 5,
+    "education": 37,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2017-09-06": {
+    "unemploy": 45,
+    "education": 66,
+    "crime": 29,
+    "homeless": 16,
+    "poverty": 16
+  },
+  "2007-03-21": {
+    "unemploy": 10,
+    "education": 194,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2018-03-26": {
+    "unemploy": 15,
+    "education": 410,
+    "crime": 9,
+    "homeless": 5,
+    "poverty": 15
+  },
+  "2015-11-24": {
+    "unemploy": 3,
+    "education": 19,
+    "crime": 10,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2015-10-12": {
+    "unemploy": 21,
+    "education": 37,
+    "crime": 7,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2019-07-24": {
+    "unemploy": 9,
+    "education": 42,
+    "crime": 14,
+    "homeless": 16,
+    "poverty": 17
+  },
+  "2012-10-30": {
+    "unemploy": 6,
+    "education": 69,
+    "crime": 28,
+    "homeless": 5,
+    "poverty": 3
+  },
+  "2010-06-16": {
+    "unemploy": 3,
+    "education": 29,
+    "crime": 42,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2012-02-09": {
+    "unemploy": 17,
+    "education": 38,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2008-02-12": {
+    "unemploy": 1,
+    "education": 44,
+    "crime": 0,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2012-10-11": {
+    "unemploy": 8,
+    "education": 46,
+    "crime": 4,
+    "homeless": 9,
+    "poverty": 1
+  },
+  "2019-07-29": {
+    "unemploy": 21,
+    "education": 72,
+    "crime": 35,
+    "homeless": 39,
+    "poverty": 4
+  },
+  "2008-12-04": {
+    "unemploy": 17,
+    "education": 43,
+    "crime": 15,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2014-12-03": {
+    "unemploy": 17,
+    "education": 82,
+    "crime": 0,
+    "homeless": 5,
+    "poverty": 2
+  },
+  "2010-06-15": {
+    "unemploy": 10,
+    "education": 76,
+    "crime": 12,
+    "homeless": 8,
+    "poverty": 0
+  },
+  "2015-09-07": {
+    "unemploy": 20,
+    "education": 113,
+    "crime": 8,
+    "homeless": 3,
+    "poverty": 3
+  },
+  "2019-11-26": {
+    "unemploy": 5,
+    "education": 18,
+    "crime": 13,
+    "homeless": 1,
+    "poverty": 10
+  },
+  "2016-08-31": {
+    "unemploy": 4,
+    "education": 22,
+    "crime": 13,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2007-06-13": {
+    "unemploy": 30,
+    "education": 433,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2020-10-22": {
+    "unemploy": 16,
+    "education": 32,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-02-25": {
+    "unemploy": 0,
+    "education": 19,
+    "crime": 10,
+    "homeless": 8,
+    "poverty": 0
+  },
+  "2007-02-12": {
+    "unemploy": 15,
+    "education": 37,
+    "crime": 31,
+    "homeless": 56,
+    "poverty": 40
+  },
+  "2015-03-18": {
+    "unemploy": 8,
+    "education": 23,
+    "crime": 112,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2006-03-01": {
+    "unemploy": 8,
+    "education": 158,
+    "crime": 20,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2020-02-26": {
+    "unemploy": 10,
+    "education": 41,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2014-08-27": {
+    "unemploy": 11,
+    "education": 32,
+    "crime": 15,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2008-12-02": {
+    "unemploy": 39,
+    "education": 28,
+    "crime": 8,
+    "homeless": 13,
+    "poverty": 3
+  },
+  "2012-02-27": {
+    "unemploy": 17,
+    "education": 218,
+    "crime": 2,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2019-09-11": {
+    "unemploy": 25,
+    "education": 213,
+    "crime": 32,
+    "homeless": 26,
+    "poverty": 5
+  },
+  "2008-06-24": {
+    "unemploy": 1,
+    "education": 14,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2012-09-20": {
+    "unemploy": 1,
+    "education": 52,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 14
+  },
+  "2006-05-24": {
+    "unemploy": 22,
+    "education": 32,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 10
+  },
+  "2014-02-11": {
+    "unemploy": 6,
+    "education": 170,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2012-03-14": {
+    "unemploy": 2,
+    "education": 106,
+    "crime": 24,
+    "homeless": 4,
+    "poverty": 7
+  },
+  "2013-02-11": {
+    "unemploy": 18,
+    "education": 189,
+    "crime": 3,
+    "homeless": 5,
+    "poverty": 20
+  },
+  "2008-09-15": {
+    "unemploy": 0,
+    "education": 14,
+    "crime": 21,
+    "homeless": 4,
+    "poverty": 2
+  },
+  "2009-08-12": {
+    "unemploy": 0,
+    "education": 226,
+    "crime": 14,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2013-12-05": {
+    "unemploy": 4,
+    "education": 97,
+    "crime": 3,
+    "homeless": 6,
+    "poverty": 1
+  },
+  "2016-09-12": {
+    "unemploy": 15,
+    "education": 64,
+    "crime": 4,
+    "homeless": 3,
+    "poverty": 3
+  },
+  "2011-08-25": {
+    "unemploy": 17,
+    "education": 22,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2009-03-18": {
+    "unemploy": 12,
+    "education": 78,
+    "crime": 8,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2009-06-03": {
+    "unemploy": 37,
+    "education": 74,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2015-05-14": {
+    "unemploy": 27,
+    "education": 16,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2015-03-24": {
+    "unemploy": 19,
+    "education": 50,
+    "crime": 18,
+    "homeless": 18,
+    "poverty": 1
+  },
+  "2018-02-13": {
+    "unemploy": 8,
+    "education": 29,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2016-04-19": {
+    "unemploy": 4,
+    "education": 1,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2017-09-12": {
+    "unemploy": 1,
+    "education": 410,
+    "crime": 13,
+    "homeless": 4,
+    "poverty": 2
+  },
+  "2010-11-23": {
+    "unemploy": 6,
+    "education": 97,
+    "crime": 4,
+    "homeless": 18,
+    "poverty": 2
+  },
+  "2015-02-26": {
+    "unemploy": 28,
+    "education": 43,
+    "crime": 8,
+    "homeless": 7,
+    "poverty": 3
+  },
+  "2020-02-24": {
+    "unemploy": 19,
+    "education": 291,
+    "crime": 11,
+    "homeless": 3,
+    "poverty": 49
+  },
+  "2012-08-23": {
+    "unemploy": 0,
+    "education": 46,
+    "crime": 13,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2014-03-20": {
+    "unemploy": 3,
+    "education": 34,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2017-08-17": {
+    "unemploy": 2,
+    "education": 13,
+    "crime": 14,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2012-05-31": {
+    "unemploy": 10,
+    "education": 26,
+    "crime": 23,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2010-02-03": {
+    "unemploy": 9,
+    "education": 38,
+    "crime": 22,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2006-06-21": {
+    "unemploy": 17,
+    "education": 55,
+    "crime": 64,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-06-25": {
+    "unemploy": 1,
+    "education": 32,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 10
+  },
+  "2010-02-10": {
+    "unemploy": 7,
+    "education": 34,
+    "crime": 1,
+    "homeless": 21,
+    "poverty": 4
+  },
+  "2016-10-11": {
+    "unemploy": 6,
+    "education": 34,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2008-08-26": {
+    "unemploy": 4,
+    "education": 34,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2020-06-17": {
+    "unemploy": 16,
+    "education": 236,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2006-03-28": {
+    "unemploy": 13,
+    "education": 17,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 12
+  },
+  "2017-05-10": {
+    "unemploy": 25,
+    "education": 71,
+    "crime": 7,
+    "homeless": 17,
+    "poverty": 2
+  },
+  "2021-05-13": {
+    "unemploy": 6,
+    "education": 193,
+    "crime": 9,
+    "homeless": 6,
+    "poverty": 5
+  },
+  "2010-06-22": {
+    "unemploy": 23,
+    "education": 161,
+    "crime": 3,
+    "homeless": 25,
+    "poverty": 2
+  },
+  "2011-06-21": {
+    "unemploy": 6,
+    "education": 175,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2019-11-27": {
+    "unemploy": 21,
+    "education": 27,
+    "crime": 4,
+    "homeless": 7,
+    "poverty": 3
+  },
+  "2017-03-23": {
+    "unemploy": 17,
+    "education": 40,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2012-10-10": {
+    "unemploy": 8,
+    "education": 151,
+    "crime": 31,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2015-12-01": {
+    "unemploy": 10,
+    "education": 58,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-03-18": {
+    "unemploy": 98,
+    "education": 100,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2011-06-15": {
+    "unemploy": 22,
+    "education": 76,
+    "crime": 27,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-10-27": {
+    "unemploy": 12,
+    "education": 107,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 8
+  },
+  "2016-02-24": {
+    "unemploy": 2,
+    "education": 32,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2021-06-24": {
+    "unemploy": 12,
+    "education": 44,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2017-03-21": {
+    "unemploy": 8,
+    "education": 90,
+    "crime": 8,
+    "homeless": 2,
+    "poverty": 14
+  },
+  "2011-03-02": {
+    "unemploy": 1,
+    "education": 55,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2007-02-27": {
+    "unemploy": 14,
+    "education": 28,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2015-05-12": {
+    "unemploy": 6,
+    "education": 15,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2006-08-14": {
+    "unemploy": 11,
+    "education": 24,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2008-06-17": {
+    "unemploy": 1,
+    "education": 11,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 12
+  },
+  "2006-06-19": {
+    "unemploy": 24,
+    "education": 55,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2016-05-02": {
+    "unemploy": 7,
+    "education": 126,
+    "crime": 15,
+    "homeless": 16,
+    "poverty": 0
+  },
+  "2016-03-15": {
+    "unemploy": 2,
+    "education": 13,
+    "crime": 31,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2012-10-29": {
+    "unemploy": 22,
+    "education": 48,
+    "crime": 59,
+    "homeless": 2,
+    "poverty": 8
+  },
+  "2007-08-14": {
+    "unemploy": 1,
+    "education": 6,
+    "crime": 1,
+    "homeless": 5,
+    "poverty": 0
+  },
+  "2007-09-19": {
+    "unemploy": 40,
+    "education": 328,
+    "crime": 52,
+    "homeless": 1,
+    "poverty": 8
+  },
+  "2008-08-27": {
+    "unemploy": 7,
+    "education": 48,
+    "crime": 5,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2017-10-17": {
+    "unemploy": 14,
+    "education": 23,
+    "crime": 5,
+    "homeless": 13,
+    "poverty": 5
+  },
+  "2009-06-25": {
+    "unemploy": 9,
+    "education": 25,
+    "crime": 30,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2006-05-31": {
+    "unemploy": 41,
+    "education": 86,
+    "crime": 18,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2017-03-20": {
+    "unemploy": 18,
+    "education": 43,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2020-10-21": {
+    "unemploy": 46,
+    "education": 216,
+    "crime": 2,
+    "homeless": 11,
+    "poverty": 10
+  },
+  "2009-10-29": {
+    "unemploy": 14,
+    "education": 28,
+    "crime": 14,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-10-13": {
+    "unemploy": 5,
+    "education": 53,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2011-05-11": {
+    "unemploy": 127,
+    "education": 96,
+    "crime": 4,
+    "homeless": 7,
+    "poverty": 5
+  },
+  "2016-05-04": {
+    "unemploy": 8,
+    "education": 67,
+    "crime": 10,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2021-03-18": {
+    "unemploy": 6,
+    "education": 71,
+    "crime": 5,
+    "homeless": 25,
+    "poverty": 5
+  },
+  "2009-10-20": {
+    "unemploy": 9,
+    "education": 100,
+    "crime": 2,
+    "homeless": 11,
+    "poverty": 0
+  },
+  "2010-03-16": {
+    "unemploy": 3,
+    "education": 8,
+    "crime": 15,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2017-06-21": {
+    "unemploy": 37,
+    "education": 88,
+    "crime": 17,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2013-05-15": {
+    "unemploy": 8,
+    "education": 27,
+    "crime": 34,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2014-09-02": {
+    "unemploy": 3,
+    "education": 475,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2013-06-18": {
+    "unemploy": 10,
+    "education": 80,
+    "crime": 2,
+    "homeless": 12,
+    "poverty": 9
+  },
+  "2019-09-16": {
+    "unemploy": 11,
+    "education": 54,
+    "crime": 3,
+    "homeless": 4,
+    "poverty": 4
+  },
+  "2017-10-24": {
+    "unemploy": 24,
+    "education": 31,
+    "crime": 40,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2008-08-28": {
+    "unemploy": 4,
+    "education": 43,
+    "crime": 1,
+    "homeless": 11,
+    "poverty": 4
+  },
+  "2016-02-22": {
+    "unemploy": 23,
+    "education": 199,
+    "crime": 16,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2007-05-24": {
+    "unemploy": 12,
+    "education": 70,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-10-20": {
+    "unemploy": 10,
+    "education": 488,
+    "crime": 5,
+    "homeless": 1,
+    "poverty": 21
+  },
+  "2009-11-26": {
+    "unemploy": 15,
+    "education": 106,
+    "crime": 8,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2019-07-04": {
+    "unemploy": 6,
+    "education": 59,
+    "crime": 7,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2013-06-05": {
+    "unemploy": 8,
+    "education": 211,
+    "crime": 0,
+    "homeless": 61,
+    "poverty": 2
+  },
+  "2007-03-22": {
+    "unemploy": 21,
+    "education": 45,
+    "crime": 10,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2018-06-18": {
+    "unemploy": 21,
+    "education": 46,
+    "crime": 3,
+    "homeless": 13,
+    "poverty": 4
+  },
+  "2020-10-08": {
+    "unemploy": 44,
+    "education": 79,
+    "crime": 2,
+    "homeless": 71,
+    "poverty": 4
+  },
+  "2013-03-12": {
+    "unemploy": 8,
+    "education": 156,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 19
+  },
+  "2011-06-20": {
+    "unemploy": 1,
+    "education": 56,
+    "crime": 22,
+    "homeless": 1,
+    "poverty": 7
+  },
+  "2017-08-09": {
+    "unemploy": 5,
+    "education": 63,
+    "crime": 26,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2008-06-03": {
+    "unemploy": 15,
+    "education": 95,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 0
+  },
+  "2021-03-24": {
+    "unemploy": 22,
+    "education": 33,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2020-06-18": {
+    "unemploy": 32,
+    "education": 85,
+    "crime": 12,
+    "homeless": 7,
+    "poverty": 2
+  },
+  "2009-08-18": {
+    "unemploy": 25,
+    "education": 228,
+    "crime": 32,
+    "homeless": 75,
+    "poverty": 3
+  },
+  "2006-11-30": {
+    "unemploy": 25,
+    "education": 34,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2018-06-27": {
+    "unemploy": 5,
+    "education": 59,
+    "crime": 36,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-02-23": {
+    "unemploy": 11,
+    "education": 119,
+    "crime": 39,
+    "homeless": 9,
+    "poverty": 5
+  },
+  "2013-11-19": {
+    "unemploy": 8,
+    "education": 33,
+    "crime": 3,
+    "homeless": 9,
+    "poverty": 0
+  },
+  "2014-08-28": {
+    "unemploy": 9,
+    "education": 148,
+    "crime": 5,
+    "homeless": 5,
+    "poverty": 3
+  },
+  "2019-09-09": {
+    "unemploy": 9,
+    "education": 30,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 8
+  },
+  "2016-05-05": {
+    "unemploy": 12,
+    "education": 63,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2015-03-23": {
+    "unemploy": 0,
+    "education": 26,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2006-02-13": {
+    "unemploy": 8,
+    "education": 15,
+    "crime": 24,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2017-03-22": {
+    "unemploy": 34,
+    "education": 172,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2007-02-08": {
+    "unemploy": 21,
+    "education": 118,
+    "crime": 6,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2006-02-08": {
+    "unemploy": 8,
+    "education": 28,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2009-02-23": {
+    "unemploy": 4,
+    "education": 110,
+    "crime": 187,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2018-02-26": {
+    "unemploy": 11,
+    "education": 146,
+    "crime": 51,
+    "homeless": 7,
+    "poverty": 10
+  },
+  "2020-03-03": {
+    "unemploy": 12,
+    "education": 38,
+    "crime": 6,
+    "homeless": 9,
+    "poverty": 0
+  },
+  "2006-05-23": {
+    "unemploy": 18,
+    "education": 57,
+    "crime": 15,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2012-03-01": {
+    "unemploy": 0,
+    "education": 40,
+    "crime": 56,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2008-02-13": {
+    "unemploy": 5,
+    "education": 71,
+    "crime": 12,
+    "homeless": 9,
+    "poverty": 3
+  },
+  "2018-05-30": {
+    "unemploy": 7,
+    "education": 70,
+    "crime": 12,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2021-03-25": {
+    "unemploy": 15,
+    "education": 18,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-03-19": {
+    "unemploy": 3,
+    "education": 19,
+    "crime": 53,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2020-06-16": {
+    "unemploy": 32,
+    "education": 101,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2006-11-28": {
+    "unemploy": 1,
+    "education": 16,
+    "crime": 68,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2019-07-22": {
+    "unemploy": 19,
+    "education": 148,
+    "crime": 7,
+    "homeless": 10,
+    "poverty": 7
+  },
+  "2013-12-02": {
+    "unemploy": 16,
+    "education": 70,
+    "crime": 14,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2008-05-28": {
+    "unemploy": 7,
+    "education": 84,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2009-03-11": {
+    "unemploy": 29,
+    "education": 107,
+    "crime": 0,
+    "homeless": 16,
+    "poverty": 1
+  },
+  "2016-02-10": {
+    "unemploy": 7,
+    "education": 26,
+    "crime": 34,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2014-05-15": {
+    "unemploy": 38,
+    "education": 91,
+    "crime": 3,
+    "homeless": 3,
+    "poverty": 11
+  },
+  "2015-02-11": {
+    "unemploy": 11,
+    "education": 471,
+    "crime": 10,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2010-11-17": {
+    "unemploy": 19,
+    "education": 208,
+    "crime": 21,
+    "homeless": 8,
+    "poverty": 16
+  },
+  "2021-06-16": {
+    "unemploy": 32,
+    "education": 106,
+    "crime": 19,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2008-06-18": {
+    "unemploy": 2,
+    "education": 26,
+    "crime": 8,
+    "homeless": 11,
+    "poverty": 1
+  },
+  "2011-11-24": {
+    "unemploy": 5,
+    "education": 23,
+    "crime": 16,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2020-02-27": {
+    "unemploy": 5,
+    "education": 16,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2020-02-06": {
+    "unemploy": 6,
+    "education": 5,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2018-02-05": {
+    "unemploy": 16,
+    "education": 84,
+    "crime": 17,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2018-05-22": {
+    "unemploy": 16,
+    "education": 83,
+    "crime": 2,
+    "homeless": 7,
+    "poverty": 7
+  },
+  "2015-06-15": {
+    "unemploy": 147,
+    "education": 61,
+    "crime": 22,
+    "homeless": 92,
+    "poverty": 8
+  },
+  "2020-04-08": {
+    "unemploy": 16,
+    "education": 27,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-05-25": {
+    "unemploy": 39,
+    "education": 57,
+    "crime": 9,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2020-11-11": {
+    "unemploy": 63,
+    "education": 74,
+    "crime": 45,
+    "homeless": 4,
+    "poverty": 5
+  },
+  "2010-02-23": {
+    "unemploy": 9,
+    "education": 104,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2021-06-23": {
+    "unemploy": 6,
+    "education": 89,
+    "crime": 7,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2018-08-14": {
+    "unemploy": 1,
+    "education": 121,
+    "crime": 10,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2016-11-30": {
+    "unemploy": 8,
+    "education": 63,
+    "crime": 13,
+    "homeless": 8,
+    "poverty": 3
+  },
+  "2020-02-10": {
+    "unemploy": 19,
+    "education": 107,
+    "crime": 14,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2020-12-02": {
+    "unemploy": 110,
+    "education": 21,
+    "crime": 1,
+    "homeless": 19,
+    "poverty": 58
+  },
+  "2017-10-23": {
+    "unemploy": 1,
+    "education": 166,
+    "crime": 16,
+    "homeless": 8,
+    "poverty": 6
+  },
+  "2006-09-05": {
+    "unemploy": 0,
+    "education": 9,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2016-09-13": {
+    "unemploy": 17,
+    "education": 38,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2012-06-20": {
+    "unemploy": 9,
+    "education": 109,
+    "crime": 11,
+    "homeless": 65,
+    "poverty": 5
+  },
+  "2008-10-13": {
+    "unemploy": 14,
+    "education": 35,
+    "crime": 36,
+    "homeless": 0,
+    "poverty": 106
+  },
+  "2016-11-23": {
+    "unemploy": 94,
+    "education": 41,
+    "crime": 69,
+    "homeless": 12,
+    "poverty": 9
+  },
+  "2019-10-21": {
+    "unemploy": 6,
+    "education": 135,
+    "crime": 9,
+    "homeless": 2,
+    "poverty": 15
+  },
+  "2008-02-19": {
+    "unemploy": 19,
+    "education": 72,
+    "crime": 10,
+    "homeless": 11,
+    "poverty": 3
+  },
+  "2017-12-06": {
+    "unemploy": 2,
+    "education": 34,
+    "crime": 7,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2007-08-16": {
+    "unemploy": 52,
+    "education": 64,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2007-08-09": {
+    "unemploy": 38,
+    "education": 65,
+    "crime": 13,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2011-02-23": {
+    "unemploy": 15,
+    "education": 65,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2016-10-12": {
+    "unemploy": 13,
+    "education": 73,
+    "crime": 14,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2014-09-23": {
+    "unemploy": 3,
+    "education": 143,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2019-10-24": {
+    "unemploy": 18,
+    "education": 86,
+    "crime": 18,
+    "homeless": 5,
+    "poverty": 6
+  },
+  "2011-11-03": {
+    "unemploy": 12,
+    "education": 75,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2012-06-25": {
+    "unemploy": 10,
+    "education": 74,
+    "crime": 6,
+    "homeless": 6,
+    "poverty": 17
+  },
+  "2010-09-29": {
+    "unemploy": 19,
+    "education": 81,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2019-02-12": {
+    "unemploy": 2,
+    "education": 8,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2012-08-21": {
+    "unemploy": 7,
+    "education": 93,
+    "crime": 12,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2015-02-24": {
+    "unemploy": 24,
+    "education": 429,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2009-11-24": {
+    "unemploy": 2,
+    "education": 36,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2015-12-02": {
+    "unemploy": 4,
+    "education": 52,
+    "crime": 110,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2021-06-21": {
+    "unemploy": 29,
+    "education": 48,
+    "crime": 9,
+    "homeless": 19,
+    "poverty": 3
+  },
+  "2007-09-20": {
+    "unemploy": 7,
+    "education": 49,
+    "crime": 37,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2012-03-15": {
+    "unemploy": 3,
+    "education": 49,
+    "crime": 2,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2015-06-25": {
+    "unemploy": 12,
+    "education": 59,
+    "crime": 22,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2017-12-07": {
+    "unemploy": 3,
+    "education": 40,
+    "crime": 11,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2018-02-07": {
+    "unemploy": 4,
+    "education": 75,
+    "crime": 55,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2006-09-04": {
+    "unemploy": 17,
+    "education": 170,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 36
+  },
+  "2014-06-16": {
+    "unemploy": 30,
+    "education": 75,
+    "crime": 32,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2014-03-03": {
+    "unemploy": 31,
+    "education": 128,
+    "crime": 21,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2018-09-11": {
+    "unemploy": 4,
+    "education": 25,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2009-06-01": {
+    "unemploy": 22,
+    "education": 87,
+    "crime": 26,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2020-03-04": {
+    "unemploy": 11,
+    "education": 164,
+    "crime": 5,
+    "homeless": 4,
+    "poverty": 7
+  },
+  "2016-11-07": {
+    "unemploy": 8,
+    "education": 31,
+    "crime": 10,
+    "homeless": 43,
+    "poverty": 7
+  },
+  "2013-03-14": {
+    "unemploy": 7,
+    "education": 22,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2011-02-08": {
+    "unemploy": 0,
+    "education": 0,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-08-13": {
+    "unemploy": 5,
+    "education": 76,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2015-08-12": {
+    "unemploy": 71,
+    "education": 25,
+    "crime": 38,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2010-03-10": {
+    "unemploy": 1,
+    "education": 14,
+    "crime": 7,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2015-09-08": {
+    "unemploy": 17,
+    "education": 19,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2020-02-05": {
+    "unemploy": 16,
+    "education": 26,
+    "crime": 5,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2009-09-09": {
+    "unemploy": 10,
+    "education": 60,
+    "crime": 9,
+    "homeless": 4,
+    "poverty": 0
+  },
+  "2008-03-20": {
+    "unemploy": 2,
+    "education": 43,
+    "crime": 11,
+    "homeless": 11,
+    "poverty": 3
+  },
+  "2018-05-09": {
+    "unemploy": 14,
+    "education": 41,
+    "crime": 24,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2013-05-28": {
+    "unemploy": 25,
+    "education": 78,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 8
+  },
+  "2015-02-09": {
+    "unemploy": 55,
+    "education": 161,
+    "crime": 7,
+    "homeless": 4,
+    "poverty": 4
+  },
+  "2007-05-22": {
+    "unemploy": 17,
+    "education": 66,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-03-04": {
+    "unemploy": 29,
+    "education": 294,
+    "crime": 11,
+    "homeless": 10,
+    "poverty": 2
+  },
+  "2008-11-26": {
+    "unemploy": 34,
+    "education": 299,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2017-05-30": {
+    "unemploy": 13,
+    "education": 135,
+    "crime": 27,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2008-11-13": {
+    "unemploy": 35,
+    "education": 22,
+    "crime": 6,
+    "homeless": 22,
+    "poverty": 2
+  },
+  "2015-09-09": {
+    "unemploy": 21,
+    "education": 16,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 11
+  },
+  "2016-11-28": {
+    "unemploy": 16,
+    "education": 34,
+    "crime": 50,
+    "homeless": 5,
+    "poverty": 7
+  },
+  "2020-12-08": {
+    "unemploy": 12,
+    "education": 50,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 8
+  },
+  "2015-10-22": {
+    "unemploy": 12,
+    "education": 103,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 9
+  },
+  "2010-06-23": {
+    "unemploy": 14,
+    "education": 87,
+    "crime": 28,
+    "homeless": 3,
+    "poverty": 7
+  },
+  "2018-11-27": {
+    "unemploy": 5,
+    "education": 52,
+    "crime": 2,
+    "homeless": 60,
+    "poverty": 8
+  },
+  "2014-02-12": {
+    "unemploy": 12,
+    "education": 48,
+    "crime": 5,
+    "homeless": 12,
+    "poverty": 11
+  },
+  "2015-03-25": {
+    "unemploy": 30,
+    "education": 35,
+    "crime": 55,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2015-06-22": {
+    "unemploy": 231,
+    "education": 126,
+    "crime": 17,
+    "homeless": 10,
+    "poverty": 44
+  },
+  "2017-09-14": {
+    "unemploy": 5,
+    "education": 22,
+    "crime": 3,
+    "homeless": 8,
+    "poverty": 0
+  },
+  "2017-05-25": {
+    "unemploy": 14,
+    "education": 310,
+    "crime": 8,
+    "homeless": 3,
+    "poverty": 2
+  },
+  "2013-02-13": {
+    "unemploy": 26,
+    "education": 102,
+    "crime": 13,
+    "homeless": 2,
+    "poverty": 6
+  },
+  "2017-08-16": {
+    "unemploy": 9,
+    "education": 95,
+    "crime": 16,
+    "homeless": 3,
+    "poverty": 7
+  },
+  "2006-10-09": {
+    "unemploy": 15,
+    "education": 141,
+    "crime": 15,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-09-12": {
+    "unemploy": 10,
+    "education": 62,
+    "crime": 11,
+    "homeless": 3,
+    "poverty": 3
+  },
+  "2007-06-18": {
+    "unemploy": 20,
+    "education": 85,
+    "crime": 6,
+    "homeless": 1,
+    "poverty": 16
+  },
+  "2013-03-18": {
+    "unemploy": 8,
+    "education": 74,
+    "crime": 31,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2020-11-09": {
+    "unemploy": 50,
+    "education": 205,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2011-11-22": {
+    "unemploy": 11,
+    "education": 53,
+    "crime": 4,
+    "homeless": 6,
+    "poverty": 3
+  },
+  "2015-03-02": {
+    "unemploy": 51,
+    "education": 78,
+    "crime": 22,
+    "homeless": 11,
+    "poverty": 10
+  },
+  "2015-06-01": {
+    "unemploy": 28,
+    "education": 44,
+    "crime": 21,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2018-09-17": {
+    "unemploy": 14,
+    "education": 40,
+    "crime": 7,
+    "homeless": 5,
+    "poverty": 5
+  },
+  "2014-06-17": {
+    "unemploy": 26,
+    "education": 148,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2007-05-31": {
+    "unemploy": 20,
+    "education": 48,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2011-10-12": {
+    "unemploy": 14,
+    "education": 33,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2010-11-18": {
+    "unemploy": 3,
+    "education": 106,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2015-11-09": {
+    "unemploy": 13,
+    "education": 293,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2018-02-15": {
+    "unemploy": 2,
+    "education": 25,
+    "crime": 95,
+    "homeless": 6,
+    "poverty": 1
+  },
+  "2018-08-22": {
+    "unemploy": 4,
+    "education": 217,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2008-06-25": {
+    "unemploy": 3,
+    "education": 14,
+    "crime": 4,
+    "homeless": 12,
+    "poverty": 0
+  },
+  "2008-02-18": {
+    "unemploy": 12,
+    "education": 102,
+    "crime": 3,
+    "homeless": 7,
+    "poverty": 7
+  },
+  "2015-02-10": {
+    "unemploy": 4,
+    "education": 319,
+    "crime": 17,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2009-10-22": {
+    "unemploy": 11,
+    "education": 29,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2012-03-22": {
+    "unemploy": 13,
+    "education": 30,
+    "crime": 16,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-03-04": {
+    "unemploy": 12,
+    "education": 21,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2021-05-12": {
+    "unemploy": 27,
+    "education": 235,
+    "crime": 9,
+    "homeless": 17,
+    "poverty": 5
+  },
+  "2013-11-12": {
+    "unemploy": 0,
+    "education": 1,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2012-09-10": {
+    "unemploy": 8,
+    "education": 109,
+    "crime": 4,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2015-11-30": {
+    "unemploy": 4,
+    "education": 30,
+    "crime": 18,
+    "homeless": 8,
+    "poverty": 3
+  },
+  "2013-12-12": {
+    "unemploy": 3,
+    "education": 13,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2008-09-01": {
+    "unemploy": 24,
+    "education": 78,
+    "crime": 10,
+    "homeless": 25,
+    "poverty": 1
+  },
+  "2019-10-16": {
+    "unemploy": 25,
+    "education": 63,
+    "crime": 15,
+    "homeless": 6,
+    "poverty": 24
+  },
+  "2019-02-14": {
+    "unemploy": 0,
+    "education": 31,
+    "crime": 21,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2019-02-21": {
+    "unemploy": 11,
+    "education": 81,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2018-02-06": {
+    "unemploy": 5,
+    "education": 28,
+    "crime": 21,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2010-05-27": {
+    "unemploy": 6,
+    "education": 31,
+    "crime": 1,
+    "homeless": 10,
+    "poverty": 2
+  },
+  "2009-10-27": {
+    "unemploy": 8,
+    "education": 49,
+    "crime": 258,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2019-10-15": {
+    "unemploy": 5,
+    "education": 33,
+    "crime": 61,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2011-08-23": {
+    "unemploy": 6,
+    "education": 65,
+    "crime": 253,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2018-05-29": {
+    "unemploy": 12,
+    "education": 58,
+    "crime": 87,
+    "homeless": 38,
+    "poverty": 9
+  },
+  "2016-12-01": {
+    "unemploy": 1,
+    "education": 25,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2020-10-29": {
+    "unemploy": 37,
+    "education": 17,
+    "crime": 12,
+    "homeless": 3,
+    "poverty": 12
+  },
+  "2008-11-12": {
+    "unemploy": 119,
+    "education": 53,
+    "crime": 5,
+    "homeless": 26,
+    "poverty": 13
+  },
+  "2010-02-22": {
+    "unemploy": 11,
+    "education": 70,
+    "crime": 73,
+    "homeless": 1,
+    "poverty": 18
+  },
+  "2016-05-03": {
+    "unemploy": 1,
+    "education": 11,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2016-02-08": {
+    "unemploy": 10,
+    "education": 86,
+    "crime": 8,
+    "homeless": 9,
+    "poverty": 6
+  },
+  "2009-10-19": {
+    "unemploy": 13,
+    "education": 499,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 34
+  },
+  "2010-10-18": {
+    "unemploy": 9,
+    "education": 96,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 6
+  },
+  "2018-10-22": {
+    "unemploy": 10,
+    "education": 30,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2012-05-30": {
+    "unemploy": 12,
+    "education": 40,
+    "crime": 9,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2012-02-16": {
+    "unemploy": 10,
+    "education": 18,
+    "crime": 1,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2017-02-14": {
+    "unemploy": 11,
+    "education": 77,
+    "crime": 10,
+    "homeless": 7,
+    "poverty": 5
+  },
+  "2009-10-21": {
+    "unemploy": 2,
+    "education": 42,
+    "crime": 4,
+    "homeless": 2,
+    "poverty": 7
+  },
+  "2014-06-23": {
+    "unemploy": 18,
+    "education": 134,
+    "crime": 11,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2016-02-03": {
+    "unemploy": 7,
+    "education": 157,
+    "crime": 21,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2017-10-18": {
+    "unemploy": 36,
+    "education": 93,
+    "crime": 58,
+    "homeless": 46,
+    "poverty": 50
+  },
+  "2007-05-08": {
+    "unemploy": 8,
+    "education": 20,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-09-03": {
+    "unemploy": 4,
+    "education": 670,
+    "crime": 29,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2008-05-15": {
+    "unemploy": 8,
+    "education": 52,
+    "crime": 8,
+    "homeless": 2,
+    "poverty": 13
+  },
+  "2016-03-01": {
+    "unemploy": 3,
+    "education": 40,
+    "crime": 11,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2007-05-10": {
+    "unemploy": 27,
+    "education": 176,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2012-08-16": {
+    "unemploy": 2,
+    "education": 20,
+    "crime": 10,
+    "homeless": 9,
+    "poverty": 4
+  },
+  "2019-07-02": {
+    "unemploy": 7,
+    "education": 7,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2014-02-24": {
+    "unemploy": 44,
+    "education": 144,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2008-09-25": {
+    "unemploy": 0,
+    "education": 55,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 6
+  },
+  "2009-11-23": {
+    "unemploy": 5,
+    "education": 150,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 13
+  },
+  "2014-11-17": {
+    "unemploy": 0,
+    "education": 2,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2013-02-14": {
+    "unemploy": 11,
+    "education": 58,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2015-10-15": {
+    "unemploy": 4,
+    "education": 283,
+    "crime": 15,
+    "homeless": 4,
+    "poverty": 6
+  },
+  "2012-02-29": {
+    "unemploy": 39,
+    "education": 41,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2014-03-06": {
+    "unemploy": 3,
+    "education": 49,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2021-02-03": {
+    "unemploy": 3,
+    "education": 22,
+    "crime": 7,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-08-26": {
+    "unemploy": 15,
+    "education": 27,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2006-10-30": {
+    "unemploy": 15,
+    "education": 100,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2013-12-09": {
+    "unemploy": 17,
+    "education": 90,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 6
+  },
+  "2014-03-05": {
+    "unemploy": 23,
+    "education": 234,
+    "crime": 17,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2009-09-17": {
+    "unemploy": 20,
+    "education": 52,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 12
+  },
+  "2018-11-28": {
+    "unemploy": 15,
+    "education": 172,
+    "crime": 37,
+    "homeless": 52,
+    "poverty": 6
+  },
+  "2012-02-14": {
+    "unemploy": 48,
+    "education": 68,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2015-10-13": {
+    "unemploy": 46,
+    "education": 101,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2020-11-30": {
+    "unemploy": 21,
+    "education": 23,
+    "crime": 14,
+    "homeless": 12,
+    "poverty": 0
+  },
+  "2008-09-03": {
+    "unemploy": 25,
+    "education": 141,
+    "crime": 5,
+    "homeless": 5,
+    "poverty": 13
+  },
+  "2009-03-19": {
+    "unemploy": 9,
+    "education": 84,
+    "crime": 19,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2012-06-28": {
+    "unemploy": 30,
+    "education": 42,
+    "crime": 8,
+    "homeless": 8,
+    "poverty": 15
+  },
+  "2006-09-13": {
+    "unemploy": 22,
+    "education": 286,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2020-12-07": {
+    "unemploy": 13,
+    "education": 56,
+    "crime": 12,
+    "homeless": 8,
+    "poverty": 11
+  },
+  "2013-12-11": {
+    "unemploy": 3,
+    "education": 169,
+    "crime": 13,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2014-05-27": {
+    "unemploy": 41,
+    "education": 198,
+    "crime": 10,
+    "homeless": 8,
+    "poverty": 5
+  },
+  "2011-08-24": {
+    "unemploy": 0,
+    "education": 28,
+    "crime": 24,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2013-06-25": {
+    "unemploy": 5,
+    "education": 88,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2012-05-23": {
+    "unemploy": 36,
+    "education": 104,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2011-03-22": {
+    "unemploy": 6,
+    "education": 150,
+    "crime": 55,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2015-09-14": {
+    "unemploy": 29,
+    "education": 57,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2007-06-12": {
+    "unemploy": 47,
+    "education": 75,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 9
+  },
+  "2014-03-19": {
+    "unemploy": 3,
+    "education": 61,
+    "crime": 9,
+    "homeless": 5,
+    "poverty": 0
+  },
+  "2011-06-16": {
+    "unemploy": 5,
+    "education": 19,
+    "crime": 10,
+    "homeless": 17,
+    "poverty": 5
+  },
+  "2018-02-14": {
+    "unemploy": 27,
+    "education": 184,
+    "crime": 67,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2020-06-11": {
+    "unemploy": 12,
+    "education": 45,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2011-09-13": {
+    "unemploy": 3,
+    "education": 19,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-06-02": {
+    "unemploy": 25,
+    "education": 103,
+    "crime": 13,
+    "homeless": 3,
+    "poverty": 4
+  },
+  "2020-05-13": {
+    "unemploy": 14,
+    "education": 35,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2006-06-15": {
+    "unemploy": 11,
+    "education": 34,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2013-02-06": {
+    "unemploy": 5,
+    "education": 40,
+    "crime": 5,
+    "homeless": 1,
+    "poverty": 33
+  },
+  "2021-02-04": {
+    "unemploy": 26,
+    "education": 19,
+    "crime": 10,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2014-03-27": {
+    "unemploy": 19,
+    "education": 76,
+    "crime": 4,
+    "homeless": 15,
+    "poverty": 2
+  },
+  "2015-02-25": {
+    "unemploy": 46,
+    "education": 47,
+    "crime": 10,
+    "homeless": 3,
+    "poverty": 11
+  },
+  "2008-02-22": {
+    "unemploy": 1,
+    "education": 2,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2011-05-12": {
+    "unemploy": 14,
+    "education": 41,
+    "crime": 14,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2020-09-02": {
+    "unemploy": 38,
+    "education": 39,
+    "crime": 28,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2013-06-24": {
+    "unemploy": 23,
+    "education": 125,
+    "crime": 22,
+    "homeless": 220,
+    "poverty": 8
+  },
+  "2006-10-18": {
+    "unemploy": 38,
+    "education": 50,
+    "crime": 56,
+    "homeless": 0,
+    "poverty": 14
+  },
+  "2006-10-12": {
+    "unemploy": 39,
+    "education": 63,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 17
+  },
+  "2009-09-16": {
+    "unemploy": 20,
+    "education": 148,
+    "crime": 57,
+    "homeless": 3,
+    "poverty": 21
+  },
+  "2021-02-17": {
+    "unemploy": 7,
+    "education": 20,
+    "crime": 8,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2020-02-12": {
+    "unemploy": 17,
+    "education": 55,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2015-09-15": {
+    "unemploy": 18,
+    "education": 31,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2006-09-06": {
+    "unemploy": 12,
+    "education": 43,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2013-12-04": {
+    "unemploy": 4,
+    "education": 107,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-06-19": {
+    "unemploy": 9,
+    "education": 49,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2021-02-23": {
+    "unemploy": 18,
+    "education": 80,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2009-02-26": {
+    "unemploy": 7,
+    "education": 80,
+    "crime": 10,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2013-06-17": {
+    "unemploy": 9,
+    "education": 228,
+    "crime": 29,
+    "homeless": 47,
+    "poverty": 13
+  },
+  "2017-02-15": {
+    "unemploy": 17,
+    "education": 47,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 12
+  },
+  "2011-07-07": {
+    "unemploy": 4,
+    "education": 29,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2018-10-18": {
+    "unemploy": 16,
+    "education": 30,
+    "crime": 6,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2011-03-24": {
+    "unemploy": 1,
+    "education": 55,
+    "crime": 15,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2010-06-03": {
+    "unemploy": 13,
+    "education": 87,
+    "crime": 7,
+    "homeless": 1,
+    "poverty": 9
+  },
+  "2011-05-30": {
+    "unemploy": 15,
+    "education": 86,
+    "crime": 87,
+    "homeless": 8,
+    "poverty": 4
+  },
+  "2008-05-14": {
+    "unemploy": 18,
+    "education": 364,
+    "crime": 1,
+    "homeless": 3,
+    "poverty": 3
+  },
+  "2014-06-05": {
+    "unemploy": 11,
+    "education": 170,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2010-02-11": {
+    "unemploy": 24,
+    "education": 60,
+    "crime": 20,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2015-09-16": {
+    "unemploy": 4,
+    "education": 25,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2010-10-26": {
+    "unemploy": 3,
+    "education": 59,
+    "crime": 21,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2017-02-28": {
+    "unemploy": 43,
+    "education": 93,
+    "crime": 6,
+    "homeless": 4,
+    "poverty": 15
+  },
+  "2014-09-04": {
+    "unemploy": 8,
+    "education": 223,
+    "crime": 9,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-05-12": {
+    "unemploy": 22,
+    "education": 104,
+    "crime": 4,
+    "homeless": 5,
+    "poverty": 16
+  },
+  "2018-08-13": {
+    "unemploy": 56,
+    "education": 58,
+    "crime": 33,
+    "homeless": 22,
+    "poverty": 16
+  },
+  "2020-05-12": {
+    "unemploy": 29,
+    "education": 20,
+    "crime": 1,
+    "homeless": 5,
+    "poverty": 2
+  },
+  "2012-05-22": {
+    "unemploy": 60,
+    "education": 123,
+    "crime": 15,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2006-09-07": {
+    "unemploy": 7,
+    "education": 25,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2011-02-21": {
+    "unemploy": 4,
+    "education": 135,
+    "crime": 15,
+    "homeless": 3,
+    "poverty": 11
+  },
+  "2008-10-23": {
+    "unemploy": 39,
+    "education": 44,
+    "crime": 1,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2010-10-20": {
+    "unemploy": 5,
+    "education": 75,
+    "crime": 21,
+    "homeless": 2,
+    "poverty": 19
+  },
+  "2010-11-24": {
+    "unemploy": 2,
+    "education": 66,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2010-06-01": {
+    "unemploy": 20,
+    "education": 50,
+    "crime": 3,
+    "homeless": 4,
+    "poverty": 7
+  },
+  "2008-09-23": {
+    "unemploy": 2,
+    "education": 36,
+    "crime": 6,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2016-10-18": {
+    "unemploy": 11,
+    "education": 119,
+    "crime": 31,
+    "homeless": 13,
+    "poverty": 1
+  },
+  "2020-10-28": {
+    "unemploy": 90,
+    "education": 73,
+    "crime": 5,
+    "homeless": 17,
+    "poverty": 41
+  },
+  "2009-06-18": {
+    "unemploy": 9,
+    "education": 61,
+    "crime": 4,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2009-02-04": {
+    "unemploy": 60,
+    "education": 136,
+    "crime": 4,
+    "homeless": 22,
+    "poverty": 3
+  },
+  "2009-11-25": {
+    "unemploy": 8,
+    "education": 93,
+    "crime": 18,
+    "homeless": 8,
+    "poverty": 0
+  },
+  "2008-11-10": {
+    "unemploy": 11,
+    "education": 717,
+    "crime": 5,
+    "homeless": 8,
+    "poverty": 14
+  },
+  "2015-03-16": {
+    "unemploy": 33,
+    "education": 78,
+    "crime": 7,
+    "homeless": 2,
+    "poverty": 4
+  },
+  "2011-06-14": {
+    "unemploy": 17,
+    "education": 25,
+    "crime": 0,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2011-07-04": {
+    "unemploy": 7,
+    "education": 299,
+    "crime": 4,
+    "homeless": 11,
+    "poverty": 14
+  },
+  "2015-08-11": {
+    "unemploy": 26,
+    "education": 91,
+    "crime": 202,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2015-03-17": {
+    "unemploy": 0,
+    "education": 145,
+    "crime": 28,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2006-08-17": {
+    "unemploy": 5,
+    "education": 31,
+    "crime": 6,
+    "homeless": 1,
+    "poverty": 3
+  },
+  "2016-09-01": {
+    "unemploy": 17,
+    "education": 60,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 3
+  },
+  "2009-08-19": {
+    "unemploy": 5,
+    "education": 158,
+    "crime": 11,
+    "homeless": 4,
+    "poverty": 1
+  },
+  "2018-09-12": {
+    "unemploy": 4,
+    "education": 13,
+    "crime": 16,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2020-10-20": {
+    "unemploy": 62,
+    "education": 161,
+    "crime": 3,
+    "homeless": 27,
+    "poverty": 11
+  },
+  "2020-12-03": {
+    "unemploy": 14,
+    "education": 20,
+    "crime": 8,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2017-03-28": {
+    "unemploy": 12,
+    "education": 46,
+    "crime": 0,
+    "homeless": 27,
+    "poverty": 1
+  },
+  "2007-02-07": {
+    "unemploy": 22,
+    "education": 195,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2010-03-15": {
+    "unemploy": 12,
+    "education": 175,
+    "crime": 19,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2019-07-03": {
+    "unemploy": 1,
+    "education": 42,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2014-10-29": {
+    "unemploy": 6,
+    "education": 61,
+    "crime": 8,
+    "homeless": 2,
+    "poverty": 8
+  },
+  "2021-02-02": {
+    "unemploy": 19,
+    "education": 7,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2008-06-02": {
+    "unemploy": 3,
+    "education": 74,
+    "crime": 9,
+    "homeless": 7,
+    "poverty": 1
+  },
+  "2021-05-27": {
+    "unemploy": 7,
+    "education": 27,
+    "crime": 3,
+    "homeless": 5,
+    "poverty": 2
+  },
+  "2020-12-10": {
+    "unemploy": 13,
+    "education": 12,
+    "crime": 23,
+    "homeless": 2,
+    "poverty": 8
+  },
+  "2009-09-10": {
+    "unemploy": 40,
+    "education": 84,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 5
+  },
+  "2006-12-06": {
+    "unemploy": 8,
+    "education": 14,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 11
+  },
+  "2019-07-31": {
+    "unemploy": 34,
+    "education": 81,
+    "crime": 17,
+    "homeless": 34,
+    "poverty": 22
+  },
+  "2007-08-13": {
+    "unemploy": 8,
+    "education": 14,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2012-06-26": {
+    "unemploy": 12,
+    "education": 31,
+    "crime": 4,
+    "homeless": 12,
+    "poverty": 7
+  },
+  "2012-09-19": {
+    "unemploy": 11,
+    "education": 48,
+    "crime": 25,
+    "homeless": 3,
+    "poverty": 1
+  },
+  "2006-10-10": {
+    "unemploy": 11,
+    "education": 8,
+    "crime": 4,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2012-03-21": {
+    "unemploy": 11,
+    "education": 18,
+    "crime": 3,
+    "homeless": 2,
+    "poverty": 3
+  },
+  "2010-10-28": {
+    "unemploy": 62,
+    "education": 47,
+    "crime": 4,
+    "homeless": 4,
+    "poverty": 18
+  },
+  "2013-05-16": {
+    "unemploy": 13,
+    "education": 34,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2007-08-07": {
+    "unemploy": 18,
+    "education": 53,
+    "crime": 10,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2013-11-14": {
+    "unemploy": 13,
+    "education": 29,
+    "crime": 5,
+    "homeless": 1,
+    "poverty": 4
+  },
+  "2019-10-23": {
+    "unemploy": 2,
+    "education": 3,
+    "crime": 11,
+    "homeless": 5,
+    "poverty": 0
+  },
+  "2011-07-05": {
+    "unemploy": 0,
+    "education": 8,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2017-02-07": {
+    "unemploy": 10,
+    "education": 39,
+    "crime": 22,
+    "homeless": 3,
+    "poverty": 0
+  },
+  "2007-09-12": {
+    "unemploy": 9,
+    "education": 175,
+    "crime": 2,
+    "homeless": 2,
+    "poverty": 1
+  },
+  "2006-10-19": {
+    "unemploy": 15,
+    "education": 15,
+    "crime": 1,
+    "homeless": 0,
+    "poverty": 3
+  },
+  "2019-12-03": {
+    "unemploy": 6,
+    "education": 15,
+    "crime": 22,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2009-08-11": {
+    "unemploy": 16,
+    "education": 13,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2017-12-05": {
+    "unemploy": 2,
+    "education": 14,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2013-05-30": {
+    "unemploy": 12,
+    "education": 213,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 5
+  },
+  "2011-03-21": {
+    "unemploy": 18,
+    "education": 375,
+    "crime": 0,
+    "homeless": 4,
+    "poverty": 18
+  },
+  "2019-12-05": {
+    "unemploy": 7,
+    "education": 28,
+    "crime": 1,
+    "homeless": 2,
+    "poverty": 46
+  },
+  "2015-06-04": {
+    "unemploy": 6,
+    "education": 78,
+    "crime": 4,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2016-11-22": {
+    "unemploy": 44,
+    "education": 23,
+    "crime": 10,
+    "homeless": 5,
+    "poverty": 1
+  },
+  "2014-10-21": {
+    "unemploy": 1,
+    "education": 29,
+    "crime": 0,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2013-02-12": {
+    "unemploy": 20,
+    "education": 462,
+    "crime": 9,
+    "homeless": 2,
+    "poverty": 10
+  },
+  "2007-09-17": {
+    "unemploy": 5,
+    "education": 24,
+    "crime": 16,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2014-02-13": {
+    "unemploy": 80,
+    "education": 98,
+    "crime": 3,
+    "homeless": 1,
+    "poverty": 1
+  },
+  "2007-05-09": {
+    "unemploy": 3,
+    "education": 109,
+    "crime": 0,
+    "homeless": 0,
+    "poverty": 7
+  },
+  "2018-09-18": {
+    "unemploy": 5,
+    "education": 27,
+    "crime": 12,
+    "homeless": 1,
+    "poverty": 2
+  },
+  "2009-05-28": {
+    "unemploy": 29,
+    "education": 106,
+    "crime": 5,
+    "homeless": 2,
+    "poverty": 5
+  },
+  "2014-03-17": {
+    "unemploy": 268,
+    "education": 109,
+    "crime": 25,
+    "homeless": 10,
+    "poverty": 19
+  },
+  "2018-08-20": {
+    "unemploy": 5,
+    "education": 58,
+    "crime": 11,
+    "homeless": 4,
+    "poverty": 17
+  },
+  "2009-10-26": {
+    "unemploy": 8,
+    "education": 265,
+    "crime": 23,
+    "homeless": 1,
+    "poverty": 6
+  },
+  "2017-08-15": {
+    "unemploy": 6,
+    "education": 10,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2014-10-02": {
+    "unemploy": 9,
+    "education": 85,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 4
+  },
+  "2009-08-17": {
+    "unemploy": 1,
+    "education": 25,
+    "crime": 2,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2017-08-08": {
+    "unemploy": 4,
+    "education": 314,
+    "crime": 21,
+    "homeless": 6,
+    "poverty": 2
+  },
+  "2017-09-04": {
+    "unemploy": 7,
+    "education": 33,
+    "crime": 71,
+    "homeless": 2,
+    "poverty": 21
+  },
+  "2012-06-21": {
+    "unemploy": 10,
+    "education": 35,
+    "crime": 17,
+    "homeless": 18,
+    "poverty": 4
+  },
+  "2018-03-27": {
+    "unemploy": 6,
+    "education": 186,
+    "crime": 1,
+    "homeless": 8,
+    "poverty": 3
+  },
+  "2009-06-17": {
+    "unemploy": 11,
+    "education": 56,
+    "crime": 36,
+    "homeless": 17,
+    "poverty": 5
+  }
+}
