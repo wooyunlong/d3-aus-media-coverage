@@ -11,13 +11,45 @@
     ></script>
     <!-- <script src="https://d3js.org/d3.v6.js" type="text/javascript"></script> -->
     <style type="text/css">
-      .category:hover {
-        fill: black;
+      header {
+        box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
+      }
+
+      footer {
+        box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
+        margin-top: 10px;
       }
 
       .category {
         clip-path: url(#clip);
       }
+
+      .category:hover {
+        fill: black;
+      }
+
+      .canvas {
+        box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
+      }
+
+      #tooltip {
+        visibility: hidden;
+        position: absolute;
+        text-align: left;
+        width: 120px;
+        height: 210px;
+        padding: 10px;
+        font: 17px sans-serif;
+        background: white;
+        box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
+        pointer-events: none;
+      }
+
+      /* .zoom {
+        cursor: move;
+        fill: none;
+        pointer-events: all;
+      } */
     </style>
     <title>The Media Coverage of 5 Topics from 2007 to 2021</title>
   </head>
@@ -33,7 +65,7 @@
     <div class="canvas"></div>
     <footer>
       <table style="border: 1px solid">
-        <tr>
+        <tr style="border: 1px solid">
           <td style="border: 1px solid">Proportion</td>
           <td style="border: 1px solid">Trend</td>
           <td style="border: 1px solid">Data</td>
@@ -43,13 +75,9 @@
         </tr>
       </table>
     </footer>
-    <div id="tooltip" class="tooltip">
-      <div class="tooltipDate">
-        <span id="date"></span>
-      </div>
-      <div class="tooltipDetail">
-        Detail Information: <span id="tooltipDetail"></span>
-      </div>
+    <div id="tooltip">
+      <div id="tooltipDate"></div>
+      <div id="tooltipDetail"></div>
     </div>
     <script>
       const focusMargin = { top: 20, right: 20, bottom: 100, left: 40 };
@@ -59,21 +87,25 @@
       const contextHeight = 480 - contextMargin.top - contextMargin.bottom;
 
       const parseTime = d3.timeParse("%Y-%m-%d");
+      const formatTime = d3.timeFormat("%Y-%m-%d");
 
       const xScale = d3.scaleTime().range([0, width]);
       const yScale = d3.scaleLinear().range([focusHeight, 0]);
       const xScaleContext = d3.scaleTime().range([0, width]);
 
-      const xAxis = d3.axisBottom(xScale);
+      const xAxis = d3
+        .axisBottom(xScale)
+        .ticks(width / 80)
+        .tickSizeOuter(0);
       const yAxis = d3.axisLeft(yScale);
       const xAxisContext = d3.axisBottom(xScaleContext);
 
       const svg = d3
         .select(".canvas")
         .append("svg")
-        // .attr("viewBox", [0, 0, 960, 480])
-        .attr("width", "960")
-        .attr("height", "480");
+        .attr("viewBox", [0, 0, 960, 480]);
+      // .attr("width", "960")
+      // .attr("height", "480");
 
       const brush = d3
         .brushX()
@@ -82,7 +114,6 @@
           [width, contextHeight],
         ])
         .on("brush", brushed);
-      // .on("end", brushended);
 
       // const zoom = d3
       //   .zoom()
@@ -115,7 +146,7 @@
           .y0(y(0))
           .y1((d) => y(d[1]));
 
-      svg
+      const clip = svg
         .append("defs")
         .append("clipPath")
         .attr("id", "clip")
@@ -168,31 +199,30 @@
 
         //Figure Out Keys
         const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 5);
-        // console.log(keys);
+        console.log(keys);
         // const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 4);
 
         // //!!!!!!!!!!!!!!!!!!!!!Slice the data a little!!!!!!!!!!!!!!!!!!!!!!!!
-        // data = data.splice(0, 50);
+        // data = data.splice(0, 2);
         // console.log(data);
 
         //Stack Data
-        const series = d3.stack().keys(keys)(
-          // .order(d3.stackOrderInsideOut)
-          // .offset(d3.stackOffsetWiggle)
-          data
-        );
-        // console.log(series);
+        const series = d3
+          .stack()
+          .keys(keys)
+          .order(d3.stackOrderInsideOut)
+          .offset(d3.stackOffsetSilhouette)(data);
+        console.log(series);
 
         //color
-        const color = d3.scaleOrdinal().domain(keys).range(d3.schemeCategory10);
+        const color = d3.scaleOrdinal().domain(keys).range(d3.schemeSet1);
 
         //domain management
         xScale.domain(d3.extent(data, (d) => d.date));
-        yScale.domain(
-          d3.extent(data, (d) =>
-            d3.sum(Object.values(d).filter((value) => value <= 100000))
-          )
-        );
+        yScale.domain([
+          d3.min(series, (d) => d3.min(d, (d) => d[0])),
+          d3.max(series, (d) => d3.max(d, (d) => d[1])),
+        ]);
         xScaleContext.domain(d3.extent(data, (d) => d.date));
 
         /**
@@ -220,7 +250,7 @@
         contextSVG
           .append("path")
           .datum(series[4])
-          .attr("fill", "steelblue")
+          .attr("fill", "black")
           .attr(
             "d",
             contextArea(xScale, yScale.copy().range([contextHeight, 0]))
@@ -237,26 +267,85 @@
           .attr("class", "brush")
           .call(brush)
           .call(brush.move, xScale.range());
+
+        // Date Selector
+        focusSVG
+          .append("rect")
+          .attr("class", "listeningRect")
+          .attr("width", width)
+          .attr("height", focusHeight)
+          .attr("fill", "transparent")
+          .on("mousemove", (event) => {
+            const mousePosition = d3.pointer(event);
+            const hoveredDate = formatTime(xScale.invert(mousePosition[0]));
+            dataSelector.attr("fill", "black").attr("x", mousePosition[0]);
+
+            if (rawData[hoveredDate]) {
+              const arr = [];
+              for (let key in rawData[hoveredDate]) {
+                if (key !== "date")
+                  arr.push(
+                    "<p>" + key + ": " + rawData[hoveredDate][key] + "</p>"
+                  );
+              }
+
+              d3.select("#tooltip")
+                .style("position", "absolute")
+                .style("left", mousePosition[0] + 70 + "px")
+                .style("top", mousePosition[1] + 110 + "px")
+                .style("visibility", "visible");
+
+              d3.select("#tooltipDate").text(hoveredDate);
+
+              d3.select("#tooltipDetail").html(`${arr.join("")}`);
+            }
+          });
+
+        const dataSelector = focusSVG
+          .append("rect")
+          .attr("class", "dotted")
+          .attr("stroke-width", "1px")
+          .attr("width", "3px")
+          .attr("height", focusHeight)
+          .attr("fill", "none");
+        // .on("mouseleave", onMouseLeave);
+
+        // svg
+        //   .append("rect")
+        //   .attr("class", "zoom")
+        //   .attr("width", width)
+        //   .attr("height", focusHeight)
+        //   .attr(
+        //     "transform",
+        //     `translate(${focusMargin.left} , ${focusMargin.top})`
+        //   )
+        //   .call(zoom);
       });
 
-      function brushed({ selection }) {
-        if (selection) {
-          xScale.domain(selection.map(xScaleContext.invert, xScaleContext));
-          focusSVG.selectAll(".category").attr("d", focusArea(xScale, yScale));
-          focusSVG.select(".axis--x").call(xAxis);
-          // svg
-          //   .select(".zoom")
-          //   .call(
-          //     zoom.transform,
-          //     d3.zoomIdentity.scale(width / (s[1] - s[0])).translate(-s[0], 0)
-          //   );
-        }
+      function brushed({ sourceEvent, selection, type }) {
+        if (sourceEvent && type === "zoom") return;
+        xScale.domain(selection.map(xScaleContext.invert, xScaleContext));
+        focusSVG.selectAll(".category").attr("d", focusArea(xScale, yScale));
+        focusSVG.select(".axis--x").call(xAxis);
+        // svg
+        //   .select(".zoom")
+        //   .call(
+        //     zoom.transform,
+        //     d3.zoomIdentity
+        //       .scale(width / (selection[1] - selection[0]))
+        //       .translate(-selection[0], 0)
+        //   );
       }
 
-      // const defaultSelection = [
-      //   xScale(d3.timeYear.offset(xScale.domain()[1], -1)),
-      //   xScale.range()[1],
-      // ];
+      // function zoomed({ sourceEvent, transform, type }) {
+      //   if (sourceEvent && type === "brush") return;
+      //   xScale.domain(transform.rescaleX(xScaleContext).domain());
+      //   // focusSVG.selectAll(".category").attr("d", focusArea(xScale, yScale));
+      //   focusSVG.select(".axis--x").call(xAxis);
+      //   contextSVG
+      //     .select(".brush")
+      //     .call(brush.move, xScale.range().map(transform.invertX, transform));
+      // }
 
       // const gbrush = svg
       //   .append("g")
@@ -432,33 +521,6 @@
       //   .style("top", "30px")
       //   .style("left", "55px");
 
-      // Date Selector
-      // const listeningRect = plotG //this rect captures the mouse movements
-      //   .append("rect")
-      //   .attr("class", "listeningRect")
-      //   .attr("width", width)
-      //   .attr("height", height)
-      //   .attr("fill", "transparent")
-      //   .on("mousemove", (event) => {
-      //     const mousePosition = d3.pointer(event);
-      //     const hoveredDate = xScale.invert(mousePosition[0]);
-      //     const getDistanceFromHoveredDate = (d) =>
-      //       Math.abs(xAccessor(d) - hoveredDate);
-      //     const closestIndex = d3.scan(
-      //       series,
-      //       (a, b) =>
-      //         getDistanceFromHoveredDate(a) - getDistanceFromHoveredDate(b)
-      //     );
-      //   });
-      // // .on("mouseleave", onMouseLeave);
-
-      // //it's not working???...
-      // const xLine = plotG
-      //   .append("rect")
-      //   .attr("class", "dotted")
-      //   .attr("stroke-width", "1px")
-      //   .attr("width", ".5px")
-      //   .attr("height", height);
       // });
     </script>
   </body>

@@ -1,0 +1,72 @@
+{
+  "2007-06-21": {
+    "unemploy": 2,
+    "education": 59,
+    "crime": 11,
+    "homeless": 0,
+    "poverty": 1
+  },
+  "2007-06-22": {
+    "unemploy": 13,
+    "education": 42,
+    "crime": 24,
+    "homeless": 2,
+    "poverty": 0
+  },
+  "2007-06-23": {
+    "unemploy": 10,
+    "education": 28,
+    "crime": 3,
+    "homeless": 0,
+    "poverty": 0
+  },
+  "2007-06-24": {
+    "unemploy": 7,
+    "education": 24,
+    "crime": 14,
+    "homeless": 12,
+    "poverty": 8
+  },
+  "2007-06-25": {
+    "unemploy": 12,
+    "education": 19,
+    "crime": 7,
+    "homeless": 2,
+    "poverty": 2
+  },
+  "2007-06-26": {
+    "unemploy": 36,
+    "education": 271,
+    "crime": 5,
+    "homeless": 0,
+    "poverty": 2
+  },
+  "2007-06-27": {
+    "unemploy": 16,
+    "education": 139,
+    "crime": 28,
+    "homeless": 11,
+    "poverty": 6
+  },
+  "2007-06-28": {
+    "unemploy": 0,
+    "education": 21,
+    "crime": 45,
+    "homeless": 2,
+    "poverty": 9
+  },
+  "2007-06-29": {
+    "unemploy": 19,
+    "education": 33,
+    "crime": 2,
+    "homeless": 1,
+    "poverty": 0
+  },
+  "2007-06-30": {
+    "unemploy": 3,
+    "education": 93,
+    "crime": 3,
+    "homeless": 3,
+    "poverty": 2
+  }
+}
