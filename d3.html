@@ -44,12 +44,6 @@
         box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
         pointer-events: none;
       }
-
-      /* .zoom {
-        cursor: move;
-        fill: none;
-        pointer-events: all;
-      } */
     </style>
     <title>The Media Coverage of 5 Topics from 2007 to 2021</title>
   </head>
@@ -115,18 +109,18 @@
         ])
         .on("brush", brushed);
 
-      // const zoom = d3
-      //   .zoom()
-      //   .scaleExtent([1, Infinity])
-      //   .translateExtent([
-      //     [0, 0],
-      //     [width, focusHeight],
-      //   ])
-      //   .extent([
-      //     [0, 0],
-      //     [width, focusHeight],
-      //   ])
-      //   .on("zoom", zoomed);
+      const zoom = d3
+        .zoom()
+        .scaleExtent([1, 32])
+        .translateExtent([
+          [0, 0],
+          [width, focusHeight],
+        ])
+        .extent([
+          [0, 0],
+          [width, focusHeight],
+        ])
+        .on("zoom", zoomed);
 
       const focusArea = (x, y) =>
         d3
@@ -301,6 +295,8 @@
             }
           });
 
+        focusSVG.call(zoom);
+
         const dataSelector = focusSVG
           .append("rect")
           .attr("class", "dotted")
@@ -309,17 +305,6 @@
           .attr("height", focusHeight)
           .attr("fill", "none");
         // .on("mouseleave", onMouseLeave);
-
-        // svg
-        //   .append("rect")
-        //   .attr("class", "zoom")
-        //   .attr("width", width)
-        //   .attr("height", focusHeight)
-        //   .attr(
-        //     "transform",
-        //     `translate(${focusMargin.left} , ${focusMargin.top})`
-        //   )
-        //   .call(zoom);
       });
 
       function brushed({ sourceEvent, selection, type }) {
@@ -327,25 +312,18 @@
         xScale.domain(selection.map(xScaleContext.invert, xScaleContext));
         focusSVG.selectAll(".category").attr("d", focusArea(xScale, yScale));
         focusSVG.select(".axis--x").call(xAxis);
-        // svg
-        //   .select(".zoom")
-        //   .call(
-        //     zoom.transform,
-        //     d3.zoomIdentity
-        //       .scale(width / (selection[1] - selection[0]))
-        //       .translate(-selection[0], 0)
-        //   );
       }
 
-      // function zoomed({ sourceEvent, transform, type }) {
-      //   if (sourceEvent && type === "brush") return;
-      //   xScale.domain(transform.rescaleX(xScaleContext).domain());
-      //   // focusSVG.selectAll(".category").attr("d", focusArea(xScale, yScale));
-      //   focusSVG.select(".axis--x").call(xAxis);
-      //   contextSVG
-      //     .select(".brush")
-      //     .call(brush.move, xScale.range().map(transform.invertX, transform));
-      // }
+      function zoomed({ sourceEvent, type, transform }) {
+        if (sourceEvent && type === "brush") return;
+        focusSVG
+          .selectAll(".category")
+          .attr("d", focusArea(transform.rescaleX(xScale), yScale));
+        focusSVG.select(".axis--x").call(xAxis);
+        contextSVG
+          .select(".brush")
+          .call(brush.move, xScale.range().map(transform.invertX, transform));
+      }
 
       // const gbrush = svg
       //   .append("g")
