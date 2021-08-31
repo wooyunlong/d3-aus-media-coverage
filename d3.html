@@ -32,6 +32,16 @@
         text-align: center;
       }
 
+      header {
+        margin-left: 50px;
+        display: flex;
+        text-align: left;
+      }
+
+      .headerTextArea p {
+        margin: 8px 0 0 0;
+      }
+
       footer {
         margin-top: 10px;
       }
@@ -44,6 +54,11 @@
         fill: black;
       }
 
+      .legends {
+        margin-left: 50px;
+        margin-top: 33px;
+      }
+
       #tooltipDate {
         background-color: #ecc633;
         margin: 0;
@@ -53,14 +68,14 @@
       #tooltipDetail {
         background-color: #faedbf;
         margin: 0;
-        padding: 1px 1px 1px 10px;
+        padding: 1px 10px 1px 10px;
       }
 
       #tooltip {
         visibility: hidden;
         position: absolute;
         text-align: left;
-        width: 120px;
+        width: auto;
         height: auto;
         font: 17px sans-serif;
         box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
@@ -71,13 +86,15 @@
   </head>
   <body>
     <header>
-      <h1>The Media Coverage of 5 Topics from 2007 to 2021</h1>
+      <div class="headerTextArea">
+        <h1>The Media Coverage of 5 Topics from 2007 to 2021</h1>
+        <p>
+          This website visualises the Media Coverage of 5 Topics from 2007 to
+          2021.
+        </p>
+        <p>Data Source: <a href="https://www.google.com">XXX Institution</a></p>
+      </div>
       <div class="legends"></div>
-      <!-- <p>
-        This website visualises the Media Coverage of 5 Topics from 2007 to
-        2021.
-      </p>
-      <p>Data Source: XXX Institution<a href="http://"></a></p> -->
     </header>
     <div class="canvas"></div>
     <!-- <footer>
@@ -97,8 +114,8 @@
       <div id="tooltipDetail"></div>
     </div>
     <script>
-      const focusMargin = { top: 20, right: 20, bottom: 100, left: 40 };
-      const contextMargin = { top: 420, right: 20, bottom: 20, left: 40 };
+      const focusMargin = { top: 20, right: 20, bottom: 100, left: 20 };
+      const contextMargin = { top: 400, right: 20, bottom: 20, left: 20 };
       const width = 960 - focusMargin.left - focusMargin.right;
       const focusHeight = 480 - focusMargin.top - focusMargin.bottom;
       const contextHeight = 480 - contextMargin.top - contextMargin.bottom;
@@ -174,8 +191,8 @@
       const legendSVG = d3
         .select(".legends")
         .append("svg")
-        .attr("width", width)
-        .attr("height", "50px");
+        .attr("width", "100px")
+        .attr("height", "90px");
 
       const focusSVG = svg
         .append("g")
@@ -198,10 +215,6 @@
          * Restructure Raw Data, Parse Date
          */
         let data = [];
-        // There is another way to build data
-        // const data = Object.keys(rawData).map(key => ({date: key, values: rawData[key]}));
-        //build date parser
-
         for (const day in rawData) {
           //remove outliers
           // if (
@@ -216,14 +229,11 @@
           rawData[day].date = parseTime(day);
           data.push(rawData[day]);
         }
-
         //Sort Data by Dates
         data = data.sort((a, b) => d3.ascending(a.date, b.date));
-
         //Figure Out Keys
-        const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 5);
-        console.log(keys);
-        // const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 4);
+        const keys = ["education", "crime", "homeless", "poverty", "unemploy"];
+        // const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 5);
 
         // //!!!!!!!!!!!!!!!!!!!!!Slice the data a little!!!!!!!!!!!!!!!!!!!!!!!!
         // data = data.splice(0, 2);
@@ -237,8 +247,14 @@
           .offset(d3.stackOffsetSilhouette)(data);
         console.log(series);
 
+        const seriesRaw = d3.stack().keys(keys)(data);
+        console.log(seriesRaw);
+
         //color
-        const color = d3.scaleOrdinal().domain(keys).range(d3.schemeSet1);
+        const color = d3
+          .scaleOrdinal()
+          .domain(keys)
+          .range(["#D17A22", "#157A6E", "#01BAEF", "#FF8CC6", "#9067C6"]);
 
         //domain management
         xScale.domain(d3.extent(data, (d) => d.date));
@@ -268,16 +284,17 @@
           .attr("transform", `translate(0,${focusHeight})`)
           .call(xAxis);
 
-        focusSVG.append("g").attr("class", "axis axis--y").call(yAxis);
+        // focusSVG.append("g").attr("class", "axis axis--y").call(yAxis);
 
         contextSVG
           .append("path")
-          .datum(series[4])
+          .datum(seriesRaw[4])
           .attr("fill", "black")
           .attr(
             "d",
-            contextArea(xScale, yScale.copy().range([contextHeight, 0]))
-          );
+            contextArea(xScaleContext, yScale.copy().range([contextHeight, 0]))
+          )
+          .attr("transform", `translate(0,${contextHeight / 2})`);
 
         contextSVG
           .append("g")
@@ -308,7 +325,9 @@
               for (let key in rawData[hoveredDate]) {
                 if (key !== "date")
                   arr.push(
-                    "<p>" + key + ": " + rawData[hoveredDate][key] + "</p>"
+                    `<p style="color:${color(key)}">${key}: ${
+                      rawData[hoveredDate][key]
+                    }</p>`
                   );
               }
 
@@ -334,8 +353,6 @@
           .attr("height", focusHeight)
           .attr("fill", "none");
 
-        var dataL = 0;
-        var offset = 160;
         const legend = legendSVG
           .selectAll(".legend")
           .data(keys)
@@ -343,56 +360,37 @@
           .append("g")
           .attr("class", "legend")
           .attr("transform", function (d, i) {
-            if (i === 0) {
-              dataL = d.length + offset;
-              return "translate(0,0)";
-            } else {
-              var newdataL = dataL;
-              dataL += d.length + offset;
-              return "translate(" + newdataL + ",0)";
+            {
+              return "translate(0," + i * 20 + ")";
             }
           });
 
         legend
           .append("rect")
-          .attr("x", 60)
-          .attr("y", 10)
-          .attr("width", 20)
-          .attr("height", 20)
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("width", 10)
+          .attr("height", 10)
           .style("fill", function (d, i) {
             return color(i);
           });
-
         legend
           .append("text")
-          .attr("x", 80)
-          .attr("y", 30)
+          .attr("x", 20)
+          .attr("y", 10)
           //.attr("dy", ".35em")
           .text(function (d, i) {
             return d;
           })
           .attr("class", "textselected")
           .style("text-anchor", "start")
-          .style("font-size", 30);
-
-        async function renderSwatches(el) {
-          // Get the value of the "swatches" notebook cell, which is the function we want, which returns a DOM element
-          const module = new Runtime().module(d3_colorLegend);
-          const swatches = await module.value("swatches");
-
-          // Finally, call `swatches` with our options and append it to the container
-          const element = swatches({
-            color,
-            marginLeft: margin.left,
-            columns: "180px",
-          });
-          el.appendChild(element);
-        }
+          .style("font-size", 15);
       });
 
       function brushed({ sourceEvent, selection, type }) {
         if (sourceEvent && type === "zoom") return;
         xScale.domain(selection.map(xScaleContext.invert, xScaleContext));
+        yScale.domain();
         focusSVG.selectAll(".category").attr("d", focusArea(xScale, yScale));
         focusSVG.select(".axis--x").call(xAxis);
       }
@@ -401,188 +399,16 @@
         if (sourceEvent && type === "brush") return;
         focusSVG
           .selectAll(".category")
-          .attr("d", focusArea(transform.rescaleX(xScale), yScale));
+          .attr(
+            "d",
+            focusArea(transform.rescaleX(xScale), transform.rescaleY(yScale))
+          );
         focusSVG.select(".axis--x").call(xAxis);
+        // focusSVG.select(".axis--y").call(yAxis);
         contextSVG
           .select(".brush")
           .call(brush.move, xScale.range().map(transform.invertX, transform));
       }
-
-      // const gbrush = svg
-      //   .append("g")
-      //   .attr("transform", `translate(0, ${height - plotMargin.bottom + 20})`)
-      //   .call(brush)
-      //   .call(brush.move, defaultSelection);
-
-      // //have a look here...
-      // function brushed({ selection }) {
-      //   if (selection) {
-      //     const [minX, maxX] = selection.map(xScale.invert); //here
-      //     // const maxY = contextHeight;//here
-      //     // yScale.copy().domain(0, maxY); //and here
-      //     d3.selectAll(".category").attr(
-      //       "d",
-      //       areaFocus(xScale.copy().domain([minX, maxX]), yScale)
-      //     );
-      //     // d3.select(".xAxis").call(xAxis(xScale.copy().domain([minX, maxX])));
-      //   }
-      // }
-
-      // function brushended({ selection }) {
-      //   if (!selection) {
-      //     gbrush.call(brush.move, defaultSelection);
-      //   }
-      // }
-
-      // svg
-      //   .append("rect")
-      //   .attr("class", "zoom")
-      //   .attr("width", width)
-      //   .attr("height", height)
-      //   .attr(
-      //     "transform",
-      //     "translate(" + margin.left + "," + margin.top + ")"
-      //   )
-      //   .call(zoom);
-
-      // //Create Time Scaled X Axis, then Render
-      // const xScale = d3
-      //   .scaleTime()
-      //   .domain(d3.extent(data, (d) => d.date)) //getting the max and min dates
-      //   .range([0, width - plotMargin.left - plotMargin.right]);
-      // //have a look here
-      // const xAxis = (x) =>
-      //   svg
-      //     .append("g")
-      //     .attr("class", "xAxis")
-      //     .attr(
-      //       "transform",
-      //       `translate(${plotMargin.left},${height - plotMargin.bottom})`
-      //     )
-      //     .call(
-      //       d3
-      //         .axisBottom(x)
-      //         .ticks(width / 80)
-      //         .tickSizeOuter(0)
-      //     )
-      //     .call((g) => g.select(".domain").remove());
-
-      // xAxis(xScale);
-
-      // //Create Linear Scales Y Axis, then Render
-      // const yScale = d3
-      //   .scaleLinear()
-      //   .domain(
-      //     d3.extent(data, (d) =>
-      //       d3.sum(Object.values(d).filter((value) => value <= 100000))
-      //     )
-      //   )
-      //   .range([height, plotMargin.bottom]);
-
-      // const yAxis = d3.axisLeft(yScale);
-      // svg
-      //   .append("g")
-      //   .attr(
-      //     "transform",
-      //     `translate(${plotMargin.left},${-plotMargin.bottom})`
-      //   )
-      //   .call(yAxis);
-
-      // //Color Palette
-
-      // //Create PlotFocus Area
-      // const focus = svg
-      //   .append("g")
-      //   .attr("class", "focus")
-      //   .attr(
-      //     "transform",
-      //     `translate(${plotMargin.left}, ${-plotMargin.bottom})`
-      //   )
-      //   .selectAll("path")
-      //   .data(series)
-      //   .join("path")
-      //   .attr("fill", ({ key }) => color(key))
-      //   .attr("d", areaFocus(xScale, yScale))
-      //   .attr("class", "category")
-      //   .append("title")
-      //   .text((d) => d.key);
-
-      // const context = svg
-      //   .append("g")
-      //   .attr("class", "context")
-      //   .attr(
-      //     "transform",
-      //     `translate(${plotMargin.left}, ${height - plotMargin.bottom + 20})`
-      //   )
-      //   .append("path")
-      //   .datum(series[4])
-      //   .attr("fill", "steelblue")
-      //   .attr(
-      //     "d",
-      //     areaContext(xScale, yScale.copy().range([contextHeight, 0]))
-      //   );
-
-      // //Render Areas
-
-      // //Focus and Context
-      // // const brush = d3
-      // //   .brushX()
-      // //   .extent([
-      // //     [plotMargin.left, 0],
-      // //     [width - plotMargin.left, contextHeight],
-      // //   ])
-      // //   .on("brush", brushed)
-      // //   .on("end", brushended);
-
-      // const defaultSelection = [
-      //   xScale(d3.timeYear.offset(xScale.domain()[1], -1)),
-      //   xScale.range()[1],
-      // ];
-
-      // const gbrush = svg
-      //   .append("g")
-      //   .attr("transform", `translate(0, ${height - plotMargin.bottom + 20})`)
-      //   .call(brush)
-      //   .call(brush.move, defaultSelection);
-
-      // //have a look here...
-      // function brushed({ selection }) {
-      //   if (selection) {
-      //     const [minX, maxX] = selection.map(xScale.invert); //here
-      //     // const maxY = contextHeight;//here
-      //     // yScale.copy().domain(0, maxY); //and here
-      //     d3.selectAll(".category").attr(
-      //       "d",
-      //       areaFocus(xScale.copy().domain([minX, maxX]), yScale)
-      //     );
-      //     // d3.select(".xAxis").call(xAxis(xScale.copy().domain([minX, maxX])));
-      //   }
-      // }
-
-      // function brushended({ selection }) {
-      //   if (!selection) {
-      //     gbrush.call(brush.move, defaultSelection);
-      //   }
-      // }
-
-      //Zooming and Paning
-      // const zoom = d3.zoom().on("zoom", (e) => {
-      //   svg.select(".category").attr("transform", (transform = e.transform));
-      // });
-      // svg.call(zoom);
-
-      //Tooltip
-      // var tooltip = d3
-      //   .select("body")
-      //   .append("div")
-      //   .attr("class", "remove")
-      //   .style("position", "absolute")
-      //   .style("z-index", "20")
-      //   .style("visibility", "hidden")
-      //   .style("top", "30px")
-      //   .style("left", "55px");
-
-      // });
     </script>
   </body>
 </html>
