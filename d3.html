@@ -39,7 +39,9 @@
       }
 
       .headerTextArea p {
-        margin: 8px 0 0 0;
+        width: 750px;
+        margin: 10px 0 0 0;
+        padding: 0 80px 0 0;
       }
 
       footer {
@@ -55,7 +57,6 @@
       }
 
       .legends {
-        margin-left: 50px;
         margin-top: 33px;
       }
 
@@ -82,15 +83,16 @@
         pointer-events: none;
       }
     </style>
-    <title>The Media Coverage of 5 Topics from 2007 to 2021</title>
+    <title>The Media Coverage of Inequality Topics</title>
   </head>
   <body>
     <header>
       <div class="headerTextArea">
-        <h1>The Media Coverage of 5 Topics from 2007 to 2021</h1>
+        <h1>The Media Coverage of Inequality Topics</h1>
         <p>
-          This website visualises the Media Coverage of 5 Topics from 2007 to
-          2021.
+          This website visualises the Media Coverage of Inequality Topics such
+          as Education, Crime, Homeless, Poverty, and Unemploy from 2007 to 2021
+          in Australia. It contains 953 days of data.
         </p>
         <p>Data Source: <a href="https://www.google.com">XXX Institution</a></p>
       </div>
@@ -115,10 +117,10 @@
     </div>
     <script>
       const focusMargin = { top: 20, right: 20, bottom: 100, left: 20 };
-      const contextMargin = { top: 400, right: 20, bottom: 20, left: 20 };
+      const contextMargin = { top: 370, right: 20, bottom: 20, left: 20 };
       const width = 960 - focusMargin.left - focusMargin.right;
-      const focusHeight = 480 - focusMargin.top - focusMargin.bottom;
-      const contextHeight = 480 - contextMargin.top - contextMargin.bottom;
+      const focusHeight = 450 - focusMargin.top - focusMargin.bottom;
+      const contextHeight = 450 - contextMargin.top - contextMargin.bottom;
 
       const parseTime = d3.timeParse("%Y-%m-%d");
       const formatTime = d3.timeFormat("%Y-%m-%d");
@@ -139,7 +141,7 @@
         .append("svg")
         // .attr("viewBox", [0, 0, 860, 480]);
         .attr("width", "960")
-        .attr("height", "480");
+        .attr("height", "450");
 
       const brush = d3
         .brushX()
