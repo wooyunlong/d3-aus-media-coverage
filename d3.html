@@ -285,9 +285,7 @@
           .join("path")
           .attr("fill", ({ key }) => color(key))
           .attr("d", focusArea(xScale, yScale))
-          .attr("class", "category")
-          .append("title")
-          .text((d) => d.key);
+          .attr("class", "category");
 
         focusSVG
           .append("g")
@@ -320,41 +318,33 @@
           .call(brush.move, xScale.range());
 
         // Date Selector
-        focusSVG
-          .append("rect")
-          .attr("class", "listeningRect")
-          .attr("width", width)
-          .attr("height", focusHeight)
-          .attr("fill", "transparent")
-          .on("mousemove", (event) => {
-            const mousePosition = d3.pointer(event);
-            const hoveredDate = formatTime(xScale.invert(mousePosition[0]));
-            dataSelector.attr("fill", "black").attr("x", mousePosition[0]);
+        focusSVG.selectAll(".category").on("mousemove", (event) => {
+          const mousePosition = d3.pointer(event);
+          const hoveredDate = formatTime(xScale.invert(mousePosition[0]));
+          dataSelector.attr("fill", "black").attr("x", mousePosition[0]);
 
-            if (rawData[hoveredDate]) {
-              const arr = [];
-              for (let key in rawData[hoveredDate]) {
-                if (key !== "date")
-                  arr.push(
-                    `<p style="color:${color(key)}">${key}: ${
-                      rawData[hoveredDate][key]
-                    }</p>`
-                  );
-              }
-
-              console.log(event);
-
-              d3.select("#tooltip")
-                .style("position", "absolute")
-                .style("left", event.clientX + 50 + "px")
-                .style("top", event.clientY - 50 + "px")
-                .style("visibility", "visible");
-
-              d3.select("#tooltipDate").text(hoveredDate);
-
-              d3.select("#tooltipDetail").html(`${arr.join("")}`);
+          if (rawData[hoveredDate]) {
+            const arr = [];
+            for (let key in rawData[hoveredDate]) {
+              if (key !== "date")
+                arr.push(
+                  `<p style="color:${color(key)}">${key}: ${
+                    rawData[hoveredDate][key]
+                  }</p>`
+                );
             }
-          });
+
+            d3.select("#tooltip")
+              .style("position", "absolute")
+              .style("left", event.clientX + 50 + "px")
+              .style("top", event.clientY - 50 + "px")
+              .style("visibility", "visible");
+
+            d3.select("#tooltipDate").text(hoveredDate);
+
+            d3.select("#tooltipDetail").html(`${arr.join("")}`);
+          }
+        });
 
         focusSVG.call(zoom);
 
