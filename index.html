@@ -10,14 +10,17 @@
       type="text/javascript"
     ></script>
 
-    <!-- <script src="https://d3js.org/d3.v6.js" type="text/javascript"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Red+Hat+Text&display=swap"
       rel="stylesheet"
     />
+
     <style type="text/css">
+      html {
+        background-color: white;
+      }
       body {
         margin: 1rem auto;
         padding: 0 0 1rem 0;
@@ -96,6 +99,7 @@
         margin: 10px auto;
       }
     </style>
+
     <title>The Media Coverage of Social Justice Topics</title>
   </head>
   <body>
@@ -138,25 +142,36 @@
       const focusHeight = 450 - focusMargin.top - focusMargin.bottom;
       const contextHeight = 450 - contextMargin.top - contextMargin.bottom;
 
+      /*
+       * Helper Functions
+       */
       const parseTime = d3.timeParse("%Y-%m-%d"); //change string to date
       const formatTime = d3.timeFormat("%Y-%m-%d"); //format date to string
-
       const capitalize = (str) => {
         const newStr = str.split("");
         newStr[0] = newStr[0].toUpperCase();
         return newStr.join("");
       };
 
+      /*
+       * Scales define the function to map an attribute's Range and Domain
+       */
       const xScale = d3.scaleLinear().range([0, width]);
       const yScale = d3.scaleLinear().range([focusHeight, 0]);
       const xScaleContext = d3.scaleTime().range([0, width]);
 
+      /*
+       * Axises
+       */
       const xAxis = d3.axisBottom(xScale);
       // .ticks(width / 80)
       // .tickSizeOuter(0);
       const yAxis = d3.axisLeft(yScale);
       const xAxisContext = d3.axisBottom(xScaleContext);
 
+      /*
+       * SVGs
+       */
       const svg = d3
         .select(".canvas")
         .append("svg")
@@ -164,6 +179,39 @@
         .attr("width", "960")
         .attr("height", "450");
 
+      const clip = svg
+        .append("defs")
+        .append("clipPath")
+        .attr("id", "clip")
+        .append("rect")
+        .attr("width", width)
+        .attr("height", focusHeight);
+
+      const legendSVG = d3
+        .select(".legends")
+        .append("svg")
+        .attr("width", "100px")
+        .attr("height", "150px");
+
+      const focusSVG = svg
+        .append("g")
+        .attr("class", "focus")
+        .attr(
+          "transform",
+          `translate(${focusMargin.left}, ${focusMargin.top})`
+        );
+
+      const contextSVG = svg
+        .append("g")
+        .attr("class", "context")
+        .attr(
+          "transform",
+          `translate(${contextMargin.left}, ${contextMargin.top})`
+        );
+
+      /*
+       * D3 Constructors
+       */
       const brush = d3
         .brushX()
         .extent([
@@ -202,42 +250,12 @@
           .y0(y(0))
           .y1((d) => y(d[1]));
 
-      const clip = svg
-        .append("defs")
-        .append("clipPath")
-        .attr("id", "clip")
-        .append("rect")
-        .attr("width", width)
-        .attr("height", focusHeight);
-
-      const legendSVG = d3
-        .select(".legends")
-        .append("svg")
-        .attr("width", "100px")
-        .attr("height", "150px");
-
-      const focusSVG = svg
-        .append("g")
-        .attr("class", "focus")
-        .attr(
-          "transform",
-          `translate(${focusMargin.left}, ${focusMargin.top})`
-        );
-
-      const contextSVG = svg
-        .append("g")
-        .attr("class", "context")
-        .attr(
-          "transform",
-          `translate(${contextMargin.left}, ${contextMargin.top})`
-        );
-
       d3.json("./data.json").then((rawData) => {
         /**
          * Restructure the Raw Data, Parse Date, Set Colors
          */
         let data = [];
-        let index2Date = [];
+        let index2Date = []; //a helper to convert index to date
         for (const day in rawData) {
           // remove outliers
           // if (
@@ -248,7 +266,6 @@
           //   rawData[day]["unemploy"] > 44
           // )
           //   continue;
-          // if (rawData[day]["education"] <= 10) console.log(day);
           rawData[day].date = Date.parse(parseTime(day));
           data.push(rawData[day]);
         }
@@ -260,32 +277,23 @@
             index2Date.push(d.date);
             return d;
           });
-        console.log(data);
-
         //Figure Out Keys
         const keys = ["education", "unemploy", "homeless", "poverty", "crime"];
         // const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 5);
-
         //Stack Data
         const series = d3
           .stack()
           .keys(keys)
           .order(d3.stackOrderInsideOut)
           .offset(d3.stackOffsetSilhouette)(data);
-        // console.log(series);
-
         const seriesRaw = d3.stack().keys(keys)(data);
-        // console.log(seriesRaw);
-
-        //color
+        //Color Management
         const color = d3
           .scaleOrdinal()
           .domain(keys)
           .range(["#D17A22", "#157A6E", "#01BAEF", "#FF8CC6", "#9067C6"]);
-
-        //domain management
+        //Domain management
         xScale.domain(d3.extent(data, (d) => d.i));
-
         yScale.domain([
           d3.min(series, (d) => d3.min(d, (d) => d[0])),
           d3.max(series, (d) => d3.max(d, (d) => d[1])),
@@ -295,7 +303,6 @@
         /**
          * Render the SVG
          */
-
         focusSVG
           .selectAll("path")
           .data(series)
@@ -303,13 +310,11 @@
           .attr("fill", ({ key }) => color(key))
           .attr("d", focusArea(xScale, yScale))
           .attr("class", "category");
-
         // focusSVG
         //   .append("g")
         //   .attr("class", "axis axis--x")
         //   .attr("transform", `translate(0,${focusHeight})`)
         //   .call(xAxis);
-
         // focusSVG.append("g").attr("class", "axis axis--y").call(yAxis);
 
         contextSVG
@@ -399,6 +404,7 @@
           .attr("fill", "none")
           .style("pointer-events", "none");
 
+        //Legend
         const legend = legendSVG
           .selectAll(".legend")
           .data(keys)
@@ -432,6 +438,10 @@
           .style("text-anchor", "start")
           .style("font-size", 17);
       });
+
+      /*
+       * Interactive functions
+       */
 
       function brushed({ sourceEvent, selection, type }) {
         if (sourceEvent && type === "zoom") return;
