@@ -100,7 +100,7 @@
         <h1>The Media Coverage of Inequality Topics</h1>
         <p>
           This website visualises the Media Coverage of Inequality Topics such
-          as Education, Crime, Homeless, Poverty, and Unemploy from 2007 to 2021
+          as Education, Crime, Homeless, Poverty, and Unemploy from 2006 to 2021
           in Australia. It contains 953 days of data.
         </p>
         <p>Data Source: <a href="https://www.google.com">XXX Institution</a></p>
@@ -131,17 +131,16 @@
       const focusHeight = 450 - focusMargin.top - focusMargin.bottom;
       const contextHeight = 450 - contextMargin.top - contextMargin.bottom;
 
-      const parseTime = d3.timeParse("%Y-%m-%d");
-      const formatTime = d3.timeFormat("%Y-%m-%d");
+      const parseTime = d3.timeParse("%Y-%m-%d"); //change string to date
+      const formatTime = d3.timeFormat("%Y-%m-%d"); //format date to string
 
-      const xScale = d3.scaleTime().range([0, width]);
+      const xScale = d3.scaleLinear().range([0, width]);
       const yScale = d3.scaleLinear().range([focusHeight, 0]);
       const xScaleContext = d3.scaleTime().range([0, width]);
 
-      const xAxis = d3
-        .axisBottom(xScale)
-        .ticks(width / 80)
-        .tickSizeOuter(0);
+      const xAxis = d3.axisBottom(xScale);
+      // .ticks(width / 80)
+      // .tickSizeOuter(0);
       const yAxis = d3.axisLeft(yScale);
       const xAxisContext = d3.axisBottom(xScaleContext);
 
@@ -178,8 +177,7 @@
           .area()
           .curve(d3.curveMonotoneX)
           .x((d) => {
-            // console.log(d.data.date);
-            return x(d.data.date);
+            return x(d.data.i);
           })
           .y0((d) => y(d[0]))
           .y1((d) => y(d[1]));
@@ -223,9 +221,10 @@
 
       d3.json("./data.json").then((rawData) => {
         /**
-         * Restructure Raw Data, Parse Date
+         * Restructure the Raw Data, Parse Date, Set Colors
          */
         let data = [];
+        let index2Date = [];
         for (const day in rawData) {
           //remove outliers
           // if (
@@ -237,18 +236,21 @@
           // )
           //   continue;
           // if (rawData[day]["education"] <= 10) console.log(day);
-          rawData[day].date = parseTime(day);
+          rawData[day].date = Date.parse(parseTime(day));
           data.push(rawData[day]);
         }
         //Sort Data by Dates
-        data = data.sort((a, b) => d3.ascending(a.date, b.date));
+        data = data
+          .sort((a, b) => d3.ascending(a.date, b.date))
+          .map((d, index) => {
+            d.i = index;
+            index2Date.push(d.date);
+            return d;
+          });
+
         //Figure Out Keys
         const keys = ["education", "unemploy", "homeless", "poverty", "crime"];
         // const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 5);
-
-        // //!!!!!!!!!!!!!!!!!!!!!Slice the data a little!!!!!!!!!!!!!!!!!!!!!!!!
-        // data = data.splice(0, 2);
-        // console.log(data);
 
         //Stack Data
         const series = d3
@@ -256,10 +258,10 @@
           .keys(keys)
           .order(d3.stackOrderInsideOut)
           .offset(d3.stackOffsetSilhouette)(data);
-        console.log(series);
+        // console.log(series);
 
         const seriesRaw = d3.stack().keys(keys)(data);
-        console.log(seriesRaw);
+        // console.log(seriesRaw);
 
         //color
         const color = d3
@@ -268,7 +270,8 @@
           .range(["#D17A22", "#157A6E", "#01BAEF", "#FF8CC6", "#9067C6"]);
 
         //domain management
-        xScale.domain(d3.extent(data, (d) => d.date));
+        xScale.domain(d3.extent(data, (d) => d.i));
+
         yScale.domain([
           d3.min(series, (d) => d3.min(d, (d) => d[0])),
           d3.max(series, (d) => d3.max(d, (d) => d[1])),
@@ -287,11 +290,11 @@
           .attr("d", focusArea(xScale, yScale))
           .attr("class", "category");
 
-        focusSVG
-          .append("g")
-          .attr("class", "axis axis--x")
-          .attr("transform", `translate(0,${focusHeight})`)
-          .call(xAxis);
+        // focusSVG
+        //   .append("g")
+        //   .attr("class", "axis axis--x")
+        //   .attr("transform", `translate(0,${focusHeight})`)
+        //   .call(xAxis);
 
         // focusSVG.append("g").attr("class", "axis axis--y").call(yAxis);
 
@@ -318,12 +321,15 @@
           .call(brush.move, xScale.range());
 
         // Date Selector
-        focusSVG.selectAll(".category").on("mousemove", (event) => {
-          const mousePosition = d3.pointer(event);
-          const hoveredDate = formatTime(xScale.invert(mousePosition[0]));
-          dataSelector.attr("fill", "black").attr("x", mousePosition[0]);
+        focusSVG.selectAll(".category").on(
+          "mousemove",
+          (event) => {
+            const mousePosition = d3.pointer(event);
+            // const hoveredDate = formatTime(xScale.invert(mousePosition[0]));
+            const hoveredDate = formatTime(index2Date[mousePosition[0]]);
+            dataSelector.attr("fill", "black").attr("x", mousePosition[0]);
 
-          if (rawData[hoveredDate]) {
+            // if (rawData[hoveredDate]) {
             const arr = [];
             for (let key in rawData[hoveredDate]) {
               if (key !== "date")
@@ -344,7 +350,8 @@
 
             d3.select("#tooltipDetail").html(`${arr.join("")}`);
           }
-        });
+          // }
+        );
 
         focusSVG.call(zoom);
 
@@ -392,21 +399,17 @@
 
       function brushed({ sourceEvent, selection, type }) {
         if (sourceEvent && type === "zoom") return;
-        xScale.domain(selection.map(xScaleContext.invert, xScaleContext));
-        yScale.domain();
+        xScale.domain(selection);
         focusSVG.selectAll(".category").attr("d", focusArea(xScale, yScale));
-        focusSVG.select(".axis--x").call(xAxis);
+        // focusSVG.select(".axis--x").call(xAxis);
       }
 
       function zoomed({ sourceEvent, type, transform }) {
         if (sourceEvent && type === "brush") return;
         focusSVG
           .selectAll(".category")
-          .attr(
-            "d",
-            focusArea(transform.rescaleX(xScale), transform.rescaleY(yScale))
-          );
-        focusSVG.select(".axis--x").call(xAxis);
+          .attr("d", focusArea(transform.rescaleX(xScale), yScale));
+        // focusSVG.select(".axis--x").call(xAxis);
         // focusSVG.select(".axis--y").call(yAxis);
         contextSVG
           .select(".brush")
