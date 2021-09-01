@@ -145,7 +145,7 @@
       /*
        * Helper Functions
        */
-      const parseTime = d3.timeParse("%Y-%m-%d"); //change string to date
+      const parseTime = d3.timeParse("%Y-%m-%d"); //format string to date
       const formatTime = d3.timeFormat("%Y-%m-%d"); //format date to string
       const capitalize = (str) => {
         const newStr = str.split("");
@@ -154,7 +154,7 @@
       };
 
       /*
-       * Scales define the function to map an attribute's Range and Domain
+       * Scales map an attribute's Range with Domain
        */
       const xScale = d3.scaleLinear().range([0, width]);
       const yScale = d3.scaleLinear().range([focusHeight, 0]);
