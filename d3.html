@@ -18,30 +18,34 @@
       rel="stylesheet"
     />
     <style type="text/css">
-      h1 {
-        font-family: "DM Serif Display", serif;
-      }
-
       body {
-        margin: 1rem;
-        padding: 1rem;
+        margin: 1rem auto;
+        padding: 0 0 1rem 0;
         background-color: #fff6d5;
         font-size: 18px;
         font-family: "Red Hat Text", sans-serif;
         box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
         text-align: center;
+        width: 1000px;
       }
 
       header {
-        margin-left: 50px;
+        width: 920px;
+        margin: 0 auto;
         display: flex;
+      }
+
+      h1 {
+        font-family: "DM Serif Display", serif;
+      }
+
+      .headerTextArea {
         text-align: left;
       }
 
       .headerTextArea p {
-        width: 750px;
         margin: 10px 0 0 0;
-        padding: 0 80px 0 0;
+        padding: 0 50px 0 0;
       }
 
       footer {
@@ -58,18 +62,7 @@
 
       .legends {
         margin-top: 33px;
-      }
-
-      #tooltipDate {
-        background-color: #ecc633;
-        margin: 0;
-        padding: 10px;
-      }
-
-      #tooltipDetail {
-        background-color: #faedbf;
-        margin: 0;
-        padding: 1px 10px 1px 10px;
+        margin-left: 13px;
       }
 
       #tooltip {
@@ -81,6 +74,22 @@
         font: 17px sans-serif;
         box-shadow: 2px 2px 24px -4px rgba(0, 0, 0, 0.59);
         pointer-events: none;
+      }
+
+      #tooltipDate {
+        background-color: #ecc633;
+        margin: 0;
+        padding: 10px;
+      }
+
+      #tooltipDetail {
+        background-color: #faedbf;
+        margin: 0;
+        padding: 3px 10px;
+      }
+
+      #tooltipDetail p {
+        margin: 10px auto;
       }
     </style>
     <title>The Media Coverage of Inequality Topics</title>
@@ -194,7 +203,7 @@
         .select(".legends")
         .append("svg")
         .attr("width", "100px")
-        .attr("height", "90px");
+        .attr("height", "150px");
 
       const focusSVG = svg
         .append("g")
@@ -234,7 +243,7 @@
         //Sort Data by Dates
         data = data.sort((a, b) => d3.ascending(a.date, b.date));
         //Figure Out Keys
-        const keys = ["education", "crime", "homeless", "poverty", "unemploy"];
+        const keys = ["education", "unemploy", "homeless", "poverty", "crime"];
         // const keys = Object.keys(rawData[Object.keys(rawData)[0]]).slice(0, 5);
 
         // //!!!!!!!!!!!!!!!!!!!!!Slice the data a little!!!!!!!!!!!!!!!!!!!!!!!!
@@ -333,10 +342,12 @@
                   );
               }
 
+              console.log(event);
+
               d3.select("#tooltip")
                 .style("position", "absolute")
-                .style("left", mousePosition[0] + 70 + "px")
-                .style("top", mousePosition[1] + 110 + "px")
+                .style("left", event.clientX + 50 + "px")
+                .style("top", event.clientY - 50 + "px")
                 .style("visibility", "visible");
 
               d3.select("#tooltipDate").text(hoveredDate);
@@ -363,7 +374,7 @@
           .attr("class", "legend")
           .attr("transform", function (d, i) {
             {
-              return "translate(0," + i * 20 + ")";
+              return "translate(0," + i * 30 + ")";
             }
           });
 
@@ -371,8 +382,8 @@
           .append("rect")
           .attr("x", 0)
           .attr("y", 0)
-          .attr("width", 10)
-          .attr("height", 10)
+          .attr("width", 15)
+          .attr("height", 15)
           .style("fill", function (d, i) {
             return color(i);
           });
@@ -386,7 +397,7 @@
           })
           .attr("class", "textselected")
           .style("text-anchor", "start")
-          .style("font-size", 15);
+          .style("font-size", 17);
       });
 
       function brushed({ sourceEvent, selection, type }) {
